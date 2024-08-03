@@ -1,7 +1,6 @@
 import React, { FormEvent, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Button, Input, Text } from "../../components";
-import Footer from "../../components/Footer";
 
 export default function LoginPage() {
   const [loginSuccess, setLoginSuccess] = useState(false);
@@ -39,7 +38,7 @@ export default function LoginPage() {
         localStorage.setItem('token', authToken);
         setLoginSuccess(true);
         setLoginError(false);
-        window.location.href = "/sandbox";
+        window.location.href = "/game";
       } else {
         const errorMessage = await response.text();
         setMessage(errorMessage);
@@ -110,7 +109,6 @@ export default function LoginPage() {
           </Button>
         </form>
       </div>
-      <Footer />
     </>
   );
 }

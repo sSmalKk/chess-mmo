@@ -20,16 +20,16 @@ const authenticateJWT = (platform) => async (req, res, next) => {
   if (authHeader) {
     const token = authHeader.split(' ')[1];
     let secret = '';
-    if (platform == PLATFORM.ADMIN){
+    if (platform == PLATFORM.ADMIN) {
       secret = adminSecret;
     }
-    else if (platform == PLATFORM.DEVICE){
+    else if (platform == PLATFORM.DEVICE) {
       secret = deviceSecret;
     }
-    else if (platform == PLATFORM.CLIENT){
+    else if (platform == PLATFORM.CLIENT) {
       secret = clientSecret;
     }
-    jwt.verify(token,secret, (error, user) => {
+    jwt.verify(token, secret, (error, user) => {
       if (error) {
         return res.unAuthorized();
       }

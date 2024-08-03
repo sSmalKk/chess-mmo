@@ -127,10 +127,10 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  pieceId: 66ae46743059be03c5575005
-                  targetPosition: 66ae46743059be03c5575006
-                  date: '2025-04-18T09:16:35.489Z'
-                  id: 66ae46743059be03c557500a
+                  pieceId: 66ae47acdd20fa03e9155897
+                  targetPosition: 66ae47acdd20fa03e9155898
+                  date: '2024-11-08T13:51:18.042Z'
+                  id: 66ae47acdd20fa03e915589c
                   isDeleted: false
   /admin/move/create:
     post:
@@ -143,9 +143,9 @@ paths:
             schema:
               type: object
               example:
-                pieceId: 66ae46743059be03c5575005
-                targetPosition: 66ae46743059be03c5575006
-                date: '2025-04-18T09:16:35.489Z'
+                pieceId: 66ae47acdd20fa03e9155897
+                targetPosition: 66ae47acdd20fa03e9155898
+                date: '2024-11-08T13:51:18.042Z'
       security:
         - bearerAuth: []
       parameters:
@@ -170,10 +170,10 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  pieceId: 66ae46743059be03c5575005
-                  targetPosition: 66ae46743059be03c5575006
-                  date: '2025-04-18T09:16:35.489Z'
-                  id: 66ae46743059be03c5575008
+                  pieceId: 66ae47acdd20fa03e9155897
+                  targetPosition: 66ae47acdd20fa03e9155898
+                  date: '2024-11-08T13:51:18.042Z'
+                  id: 66ae47acdd20fa03e915589a
                   isDeleted: false
   /admin/move/list:
     post:
@@ -232,10 +232,10 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - pieceId: 66ae46743059be03c5575005
-                      targetPosition: 66ae46743059be03c5575006
-                      date: '2025-04-18T09:16:35.489Z'
-                      id: 66ae46743059be03c5575009
+                    - pieceId: 66ae47acdd20fa03e9155897
+                      targetPosition: 66ae47acdd20fa03e9155898
+                      date: '2024-11-08T13:51:18.042Z'
+                      id: 66ae47acdd20fa03e915589b
                       isDeleted: false
                   paginator:
                     itemCount: 1
@@ -298,9 +298,9 @@ paths:
               type: object
               example:
                 data:
-                  - pieceId: 66ae46743059be03c5575005
-                    targetPosition: 66ae46743059be03c5575006
-                    date: '2025-04-18T09:16:35.489Z'
+                  - pieceId: 66ae47acdd20fa03e9155897
+                    targetPosition: 66ae47acdd20fa03e9155898
+                    date: '2024-11-08T13:51:18.042Z'
       security:
         - bearerAuth: []
       parameters:
@@ -376,9 +376,9 @@ paths:
             schema:
               type: object
               example:
-                pieceId: 66ae46743059be03c5575005
-                targetPosition: 66ae46743059be03c5575006
-                date: '2025-04-18T09:16:35.489Z'
+                pieceId: 66ae47acdd20fa03e9155897
+                targetPosition: 66ae47acdd20fa03e9155898
+                date: '2024-11-08T13:51:18.042Z'
       security:
         - bearerAuth: []
       parameters:
@@ -408,10 +408,10 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  pieceId: 66ae46743059be03c5575005
-                  targetPosition: 66ae46743059be03c5575006
-                  date: '2025-04-18T09:16:35.489Z'
-                  id: 66ae46743059be03c557500b
+                  pieceId: 66ae47acdd20fa03e9155897
+                  targetPosition: 66ae47acdd20fa03e9155898
+                  date: '2024-11-08T13:51:18.042Z'
+                  id: 66ae47acdd20fa03e915589d
                   isDeleted: false
   /admin/move/partial-update/{id}:
     put:
@@ -455,10 +455,10 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  pieceId: 66ae46743059be03c5575005
-                  targetPosition: 66ae46743059be03c5575006
-                  date: '2025-04-18T09:16:35.489Z'
-                  id: 66ae46743059be03c557500c
+                  pieceId: 66ae47acdd20fa03e9155897
+                  targetPosition: 66ae47acdd20fa03e9155898
+                  date: '2024-11-08T13:51:18.042Z'
+                  id: 66ae47acdd20fa03e915589e
                   isDeleted: false
   /admin/move/softDelete/{id}:
     put:
@@ -697,14 +697,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  name: Laverne Fisher
-                  code: Functionality
-                  admin: Buckinghamshire
-                  id: 66ae46743059be03c5575020
+                  name: Ernest Blick
+                  code: monitor
+                  admin: Regional
+                  id: 66ae47acdd20fa03e91558b2
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-12-03T21:06:17.353Z'
-                  updatedAt: '2025-02-11T10:29:41.304Z'
+                  createdAt: '2025-03-13T06:13:41.899Z'
+                  updatedAt: '2024-12-08T08:47:46.846Z'
   /admin/chat_group/create:
     post:
       tags:
@@ -716,9 +716,9 @@ paths:
             schema:
               type: object
               example:
-                name: Laverne Fisher
-                code: Functionality
-                admin: Buckinghamshire
+                name: Ernest Blick
+                code: monitor
+                admin: Regional
       security:
         - bearerAuth: []
       parameters:
@@ -743,14 +743,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  name: Laverne Fisher
-                  code: Functionality
-                  admin: Buckinghamshire
-                  id: 66ae46743059be03c557501e
+                  name: Ernest Blick
+                  code: monitor
+                  admin: Regional
+                  id: 66ae47acdd20fa03e91558b0
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-12-03T21:06:17.353Z'
-                  updatedAt: '2025-02-11T10:29:41.304Z'
+                  createdAt: '2025-03-13T06:13:41.899Z'
+                  updatedAt: '2024-12-08T08:47:46.846Z'
   /admin/chat_group/list:
     post:
       tags:
@@ -808,14 +808,14 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - name: Laverne Fisher
-                      code: Functionality
-                      admin: Buckinghamshire
-                      id: 66ae46743059be03c557501f
+                    - name: Ernest Blick
+                      code: monitor
+                      admin: Regional
+                      id: 66ae47acdd20fa03e91558b1
                       isDeleted: false
                       isActive: true
-                      createdAt: '2024-12-03T21:06:17.353Z'
-                      updatedAt: '2025-02-11T10:29:41.304Z'
+                      createdAt: '2025-03-13T06:13:41.899Z'
+                      updatedAt: '2024-12-08T08:47:46.846Z'
                   paginator:
                     itemCount: 1
                     offset: 0
@@ -877,9 +877,9 @@ paths:
               type: object
               example:
                 data:
-                  - name: Laverne Fisher
-                    code: Functionality
-                    admin: Buckinghamshire
+                  - name: Ernest Blick
+                    code: monitor
+                    admin: Regional
       security:
         - bearerAuth: []
       parameters:
@@ -955,9 +955,9 @@ paths:
             schema:
               type: object
               example:
-                name: Laverne Fisher
-                code: Functionality
-                admin: Buckinghamshire
+                name: Ernest Blick
+                code: monitor
+                admin: Regional
       security:
         - bearerAuth: []
       parameters:
@@ -987,14 +987,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  name: Laverne Fisher
-                  code: Functionality
-                  admin: Buckinghamshire
-                  id: 66ae46743059be03c5575021
+                  name: Ernest Blick
+                  code: monitor
+                  admin: Regional
+                  id: 66ae47acdd20fa03e91558b3
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-12-03T21:06:17.353Z'
-                  updatedAt: '2025-02-11T10:29:41.304Z'
+                  createdAt: '2025-03-13T06:13:41.899Z'
+                  updatedAt: '2024-12-08T08:47:46.846Z'
   /admin/chat_group/partial-update/{id}:
     put:
       tags:
@@ -1037,14 +1037,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  name: Laverne Fisher
-                  code: Functionality
-                  admin: Buckinghamshire
-                  id: 66ae46743059be03c5575022
+                  name: Ernest Blick
+                  code: monitor
+                  admin: Regional
+                  id: 66ae47acdd20fa03e91558b4
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-12-03T21:06:17.353Z'
-                  updatedAt: '2025-02-11T10:29:41.304Z'
+                  createdAt: '2025-03-13T06:13:41.899Z'
+                  updatedAt: '2024-12-08T08:47:46.846Z'
   /admin/chat_group/softDelete/{id}:
     put:
       tags:
@@ -1233,15 +1233,15 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  message: hacking
-                  sender: deposit
-                  recipient: Data
-                  groupId: 66ae46743059be03c5575033
-                  id: 66ae46743059be03c5575037
+                  message: Beauty
+                  sender: plum
+                  recipient: Assistant
+                  groupId: 66ae47acdd20fa03e91558c5
+                  id: 66ae47acdd20fa03e91558c9
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-02-25T00:39:10.762Z'
-                  updatedAt: '2024-12-09T23:10:49.896Z'
+                  createdAt: '2025-04-29T12:20:27.637Z'
+                  updatedAt: '2025-03-18T12:16:55.081Z'
   /admin/chat_message/create:
     post:
       tags:
@@ -1253,10 +1253,10 @@ paths:
             schema:
               type: object
               example:
-                message: hacking
-                sender: deposit
-                recipient: Data
-                groupId: 66ae46743059be03c5575033
+                message: Beauty
+                sender: plum
+                recipient: Assistant
+                groupId: 66ae47acdd20fa03e91558c5
       security:
         - bearerAuth: []
       parameters:
@@ -1281,15 +1281,15 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  message: hacking
-                  sender: deposit
-                  recipient: Data
-                  groupId: 66ae46743059be03c5575033
-                  id: 66ae46743059be03c5575035
+                  message: Beauty
+                  sender: plum
+                  recipient: Assistant
+                  groupId: 66ae47acdd20fa03e91558c5
+                  id: 66ae47acdd20fa03e91558c7
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-02-25T00:39:10.762Z'
-                  updatedAt: '2024-12-09T23:10:49.896Z'
+                  createdAt: '2025-04-29T12:20:27.637Z'
+                  updatedAt: '2025-03-18T12:16:55.081Z'
   /admin/chat_message/list:
     post:
       tags:
@@ -1347,15 +1347,15 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - message: hacking
-                      sender: deposit
-                      recipient: Data
-                      groupId: 66ae46743059be03c5575033
-                      id: 66ae46743059be03c5575036
+                    - message: Beauty
+                      sender: plum
+                      recipient: Assistant
+                      groupId: 66ae47acdd20fa03e91558c5
+                      id: 66ae47acdd20fa03e91558c8
                       isDeleted: false
                       isActive: true
-                      createdAt: '2025-02-25T00:39:10.762Z'
-                      updatedAt: '2024-12-09T23:10:49.896Z'
+                      createdAt: '2025-04-29T12:20:27.637Z'
+                      updatedAt: '2025-03-18T12:16:55.081Z'
                   paginator:
                     itemCount: 1
                     offset: 0
@@ -1417,10 +1417,10 @@ paths:
               type: object
               example:
                 data:
-                  - message: hacking
-                    sender: deposit
-                    recipient: Data
-                    groupId: 66ae46743059be03c5575033
+                  - message: Beauty
+                    sender: plum
+                    recipient: Assistant
+                    groupId: 66ae47acdd20fa03e91558c5
       security:
         - bearerAuth: []
       parameters:
@@ -1496,10 +1496,10 @@ paths:
             schema:
               type: object
               example:
-                message: hacking
-                sender: deposit
-                recipient: Data
-                groupId: 66ae46743059be03c5575033
+                message: Beauty
+                sender: plum
+                recipient: Assistant
+                groupId: 66ae47acdd20fa03e91558c5
       security:
         - bearerAuth: []
       parameters:
@@ -1529,15 +1529,15 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  message: hacking
-                  sender: deposit
-                  recipient: Data
-                  groupId: 66ae46743059be03c5575033
-                  id: 66ae46743059be03c5575038
+                  message: Beauty
+                  sender: plum
+                  recipient: Assistant
+                  groupId: 66ae47acdd20fa03e91558c5
+                  id: 66ae47acdd20fa03e91558ca
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-02-25T00:39:10.762Z'
-                  updatedAt: '2024-12-09T23:10:49.896Z'
+                  createdAt: '2025-04-29T12:20:27.637Z'
+                  updatedAt: '2025-03-18T12:16:55.081Z'
   /admin/chat_message/partial-update/{id}:
     put:
       tags:
@@ -1580,15 +1580,15 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  message: hacking
-                  sender: deposit
-                  recipient: Data
-                  groupId: 66ae46743059be03c5575033
-                  id: 66ae46743059be03c5575039
+                  message: Beauty
+                  sender: plum
+                  recipient: Assistant
+                  groupId: 66ae47acdd20fa03e91558c5
+                  id: 66ae47acdd20fa03e91558cb
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-02-25T00:39:10.762Z'
-                  updatedAt: '2024-12-09T23:10:49.896Z'
+                  createdAt: '2025-04-29T12:20:27.637Z'
+                  updatedAt: '2025-03-18T12:16:55.081Z'
   /admin/chat_message/softDelete/{id}:
     put:
       tags:
@@ -1777,13 +1777,13 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  position: 319
-                  model: 66ae46743059be03c557504a
-                  id: 66ae46743059be03c557504e
+                  position: 260
+                  model: 66ae47acdd20fa03e91558dc
+                  id: 66ae47acdd20fa03e91558e0
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-05-05T20:43:24.393Z'
-                  updatedAt: '2025-05-02T23:27:40.537Z'
+                  createdAt: '2025-04-24T01:13:19.491Z'
+                  updatedAt: '2025-03-28T19:48:48.669Z'
   /admin/piece/create:
     post:
       tags:
@@ -1795,8 +1795,8 @@ paths:
             schema:
               type: object
               example:
-                position: 319
-                model: 66ae46743059be03c557504a
+                position: 260
+                model: 66ae47acdd20fa03e91558dc
       security:
         - bearerAuth: []
       parameters:
@@ -1821,13 +1821,13 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  position: 319
-                  model: 66ae46743059be03c557504a
-                  id: 66ae46743059be03c557504c
+                  position: 260
+                  model: 66ae47acdd20fa03e91558dc
+                  id: 66ae47acdd20fa03e91558de
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-05-05T20:43:24.393Z'
-                  updatedAt: '2025-05-02T23:27:40.537Z'
+                  createdAt: '2025-04-24T01:13:19.491Z'
+                  updatedAt: '2025-03-28T19:48:48.669Z'
   /admin/piece/list:
     post:
       tags:
@@ -1885,13 +1885,13 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - position: 319
-                      model: 66ae46743059be03c557504a
-                      id: 66ae46743059be03c557504d
+                    - position: 260
+                      model: 66ae47acdd20fa03e91558dc
+                      id: 66ae47acdd20fa03e91558df
                       isDeleted: false
                       isActive: true
-                      createdAt: '2025-05-05T20:43:24.393Z'
-                      updatedAt: '2025-05-02T23:27:40.537Z'
+                      createdAt: '2025-04-24T01:13:19.491Z'
+                      updatedAt: '2025-03-28T19:48:48.669Z'
                   paginator:
                     itemCount: 1
                     offset: 0
@@ -1953,8 +1953,8 @@ paths:
               type: object
               example:
                 data:
-                  - position: 319
-                    model: 66ae46743059be03c557504a
+                  - position: 260
+                    model: 66ae47acdd20fa03e91558dc
       security:
         - bearerAuth: []
       parameters:
@@ -2030,8 +2030,8 @@ paths:
             schema:
               type: object
               example:
-                position: 319
-                model: 66ae46743059be03c557504a
+                position: 260
+                model: 66ae47acdd20fa03e91558dc
       security:
         - bearerAuth: []
       parameters:
@@ -2061,13 +2061,13 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  position: 319
-                  model: 66ae46743059be03c557504a
-                  id: 66ae46743059be03c557504f
+                  position: 260
+                  model: 66ae47acdd20fa03e91558dc
+                  id: 66ae47acdd20fa03e91558e1
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-05-05T20:43:24.393Z'
-                  updatedAt: '2025-05-02T23:27:40.537Z'
+                  createdAt: '2025-04-24T01:13:19.491Z'
+                  updatedAt: '2025-03-28T19:48:48.669Z'
   /admin/piece/partial-update/{id}:
     put:
       tags:
@@ -2110,13 +2110,13 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  position: 319
-                  model: 66ae46743059be03c557504a
-                  id: 66ae46743059be03c5575050
+                  position: 260
+                  model: 66ae47acdd20fa03e91558dc
+                  id: 66ae47acdd20fa03e91558e2
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-05-05T20:43:24.393Z'
-                  updatedAt: '2025-05-02T23:27:40.537Z'
+                  createdAt: '2025-04-24T01:13:19.491Z'
+                  updatedAt: '2025-03-28T19:48:48.669Z'
   /admin/piece/softDelete/{id}:
     put:
       tags:
@@ -2305,11 +2305,11 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  img: panel
-                  eat: alarm
-                  table: feed
-                  name: Noel Wilderman
-                  id: 66ae46743059be03c5575064
+                  img: Horizontal
+                  eat: Creative
+                  table: copying
+                  name: Ms. Fred Kerluke
+                  id: 66ae47acdd20fa03e91558f6
                   isDeleted: false
   /admin/piecetemplate/create:
     post:
@@ -2322,10 +2322,10 @@ paths:
             schema:
               type: object
               example:
-                img: panel
-                eat: alarm
-                table: feed
-                name: Noel Wilderman
+                img: Horizontal
+                eat: Creative
+                table: copying
+                name: Ms. Fred Kerluke
       security:
         - bearerAuth: []
       parameters:
@@ -2350,11 +2350,11 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  img: panel
-                  eat: alarm
-                  table: feed
-                  name: Noel Wilderman
-                  id: 66ae46743059be03c5575062
+                  img: Horizontal
+                  eat: Creative
+                  table: copying
+                  name: Ms. Fred Kerluke
+                  id: 66ae47acdd20fa03e91558f4
                   isDeleted: false
   /admin/piecetemplate/list:
     post:
@@ -2413,11 +2413,11 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - img: panel
-                      eat: alarm
-                      table: feed
-                      name: Noel Wilderman
-                      id: 66ae46743059be03c5575063
+                    - img: Horizontal
+                      eat: Creative
+                      table: copying
+                      name: Ms. Fred Kerluke
+                      id: 66ae47acdd20fa03e91558f5
                       isDeleted: false
                   paginator:
                     itemCount: 1
@@ -2480,10 +2480,10 @@ paths:
               type: object
               example:
                 data:
-                  - img: panel
-                    eat: alarm
-                    table: feed
-                    name: Noel Wilderman
+                  - img: Horizontal
+                    eat: Creative
+                    table: copying
+                    name: Ms. Fred Kerluke
       security:
         - bearerAuth: []
       parameters:
@@ -2559,10 +2559,10 @@ paths:
             schema:
               type: object
               example:
-                img: panel
-                eat: alarm
-                table: feed
-                name: Noel Wilderman
+                img: Horizontal
+                eat: Creative
+                table: copying
+                name: Ms. Fred Kerluke
       security:
         - bearerAuth: []
       parameters:
@@ -2592,11 +2592,11 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  img: panel
-                  eat: alarm
-                  table: feed
-                  name: Noel Wilderman
-                  id: 66ae46743059be03c5575065
+                  img: Horizontal
+                  eat: Creative
+                  table: copying
+                  name: Ms. Fred Kerluke
+                  id: 66ae47acdd20fa03e91558f7
                   isDeleted: false
   /admin/piecetemplate/partial-update/{id}:
     put:
@@ -2640,11 +2640,11 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  img: panel
-                  eat: alarm
-                  table: feed
-                  name: Noel Wilderman
-                  id: 66ae46743059be03c5575066
+                  img: Horizontal
+                  eat: Creative
+                  table: copying
+                  name: Ms. Fred Kerluke
+                  id: 66ae47acdd20fa03e91558f8
                   isDeleted: false
   /admin/piecetemplate/softDelete/{id}:
     put:
@@ -2834,15 +2834,15 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  slot: 66ae46743059be03c5575077
-                  position: 53
-                  x: 33
-                  'y': Sleek
-                  id: 66ae46743059be03c557507b
+                  slot: 66ae47acdd20fa03e9155909
+                  position: 781
+                  x: 188
+                  'y': Indiana
+                  id: 66ae47acdd20fa03e915590d
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-01-10T08:43:03.076Z'
-                  updatedAt: '2025-07-31T09:50:20.499Z'
+                  createdAt: '2024-10-13T00:24:13.891Z'
+                  updatedAt: '2024-09-02T02:13:30.635Z'
   /admin/slot/create:
     post:
       tags:
@@ -2854,10 +2854,10 @@ paths:
             schema:
               type: object
               example:
-                slot: 66ae46743059be03c5575077
-                position: 53
-                x: 33
-                'y': Sleek
+                slot: 66ae47acdd20fa03e9155909
+                position: 781
+                x: 188
+                'y': Indiana
       security:
         - bearerAuth: []
       parameters:
@@ -2882,15 +2882,15 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  slot: 66ae46743059be03c5575077
-                  position: 53
-                  x: 33
-                  'y': Sleek
-                  id: 66ae46743059be03c5575079
+                  slot: 66ae47acdd20fa03e9155909
+                  position: 781
+                  x: 188
+                  'y': Indiana
+                  id: 66ae47acdd20fa03e915590b
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-01-10T08:43:03.076Z'
-                  updatedAt: '2025-07-31T09:50:20.499Z'
+                  createdAt: '2024-10-13T00:24:13.891Z'
+                  updatedAt: '2024-09-02T02:13:30.635Z'
   /admin/slot/list:
     post:
       tags:
@@ -2948,15 +2948,15 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - slot: 66ae46743059be03c5575077
-                      position: 53
-                      x: 33
-                      'y': Sleek
-                      id: 66ae46743059be03c557507a
+                    - slot: 66ae47acdd20fa03e9155909
+                      position: 781
+                      x: 188
+                      'y': Indiana
+                      id: 66ae47acdd20fa03e915590c
                       isDeleted: false
                       isActive: true
-                      createdAt: '2025-01-10T08:43:03.076Z'
-                      updatedAt: '2025-07-31T09:50:20.499Z'
+                      createdAt: '2024-10-13T00:24:13.891Z'
+                      updatedAt: '2024-09-02T02:13:30.635Z'
                   paginator:
                     itemCount: 1
                     offset: 0
@@ -3018,10 +3018,10 @@ paths:
               type: object
               example:
                 data:
-                  - slot: 66ae46743059be03c5575077
-                    position: 53
-                    x: 33
-                    'y': Sleek
+                  - slot: 66ae47acdd20fa03e9155909
+                    position: 781
+                    x: 188
+                    'y': Indiana
       security:
         - bearerAuth: []
       parameters:
@@ -3097,10 +3097,10 @@ paths:
             schema:
               type: object
               example:
-                slot: 66ae46743059be03c5575077
-                position: 53
-                x: 33
-                'y': Sleek
+                slot: 66ae47acdd20fa03e9155909
+                position: 781
+                x: 188
+                'y': Indiana
       security:
         - bearerAuth: []
       parameters:
@@ -3130,15 +3130,15 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  slot: 66ae46743059be03c5575077
-                  position: 53
-                  x: 33
-                  'y': Sleek
-                  id: 66ae46743059be03c557507c
+                  slot: 66ae47acdd20fa03e9155909
+                  position: 781
+                  x: 188
+                  'y': Indiana
+                  id: 66ae47acdd20fa03e915590e
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-01-10T08:43:03.076Z'
-                  updatedAt: '2025-07-31T09:50:20.499Z'
+                  createdAt: '2024-10-13T00:24:13.891Z'
+                  updatedAt: '2024-09-02T02:13:30.635Z'
   /admin/slot/partial-update/{id}:
     put:
       tags:
@@ -3181,15 +3181,15 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  slot: 66ae46743059be03c5575077
-                  position: 53
-                  x: 33
-                  'y': Sleek
-                  id: 66ae46743059be03c557507d
+                  slot: 66ae47acdd20fa03e9155909
+                  position: 781
+                  x: 188
+                  'y': Indiana
+                  id: 66ae47acdd20fa03e915590f
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-01-10T08:43:03.076Z'
-                  updatedAt: '2025-07-31T09:50:20.499Z'
+                  createdAt: '2024-10-13T00:24:13.891Z'
+                  updatedAt: '2024-09-02T02:13:30.635Z'
   /admin/slot/softDelete/{id}:
     put:
       tags:
@@ -3378,14 +3378,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  coordnate: 211
-                  x: 868
-                  'y': 17
-                  id: 66ae46743059be03c5575091
+                  coordnate: 505
+                  x: 522
+                  'y': 413
+                  id: 66ae47acdd20fa03e9155923
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-10-03T14:07:09.755Z'
-                  updatedAt: '2025-06-28T16:20:35.802Z'
+                  createdAt: '2025-05-31T13:34:43.891Z'
+                  updatedAt: '2025-03-12T23:48:12.674Z'
   /admin/table/create:
     post:
       tags:
@@ -3397,9 +3397,9 @@ paths:
             schema:
               type: object
               example:
-                coordnate: 211
-                x: 868
-                'y': 17
+                coordnate: 505
+                x: 522
+                'y': 413
       security:
         - bearerAuth: []
       parameters:
@@ -3424,14 +3424,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  coordnate: 211
-                  x: 868
-                  'y': 17
-                  id: 66ae46743059be03c557508f
+                  coordnate: 505
+                  x: 522
+                  'y': 413
+                  id: 66ae47acdd20fa03e9155921
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-10-03T14:07:09.755Z'
-                  updatedAt: '2025-06-28T16:20:35.802Z'
+                  createdAt: '2025-05-31T13:34:43.891Z'
+                  updatedAt: '2025-03-12T23:48:12.674Z'
   /admin/table/list:
     post:
       tags:
@@ -3489,14 +3489,14 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - coordnate: 211
-                      x: 868
-                      'y': 17
-                      id: 66ae46743059be03c5575090
+                    - coordnate: 505
+                      x: 522
+                      'y': 413
+                      id: 66ae47acdd20fa03e9155922
                       isDeleted: false
                       isActive: true
-                      createdAt: '2024-10-03T14:07:09.755Z'
-                      updatedAt: '2025-06-28T16:20:35.802Z'
+                      createdAt: '2025-05-31T13:34:43.891Z'
+                      updatedAt: '2025-03-12T23:48:12.674Z'
                   paginator:
                     itemCount: 1
                     offset: 0
@@ -3558,9 +3558,9 @@ paths:
               type: object
               example:
                 data:
-                  - coordnate: 211
-                    x: 868
-                    'y': 17
+                  - coordnate: 505
+                    x: 522
+                    'y': 413
       security:
         - bearerAuth: []
       parameters:
@@ -3636,9 +3636,9 @@ paths:
             schema:
               type: object
               example:
-                coordnate: 211
-                x: 868
-                'y': 17
+                coordnate: 505
+                x: 522
+                'y': 413
       security:
         - bearerAuth: []
       parameters:
@@ -3668,14 +3668,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  coordnate: 211
-                  x: 868
-                  'y': 17
-                  id: 66ae46743059be03c5575092
+                  coordnate: 505
+                  x: 522
+                  'y': 413
+                  id: 66ae47acdd20fa03e9155924
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-10-03T14:07:09.755Z'
-                  updatedAt: '2025-06-28T16:20:35.802Z'
+                  createdAt: '2025-05-31T13:34:43.891Z'
+                  updatedAt: '2025-03-12T23:48:12.674Z'
   /admin/table/partial-update/{id}:
     put:
       tags:
@@ -3718,14 +3718,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  coordnate: 211
-                  x: 868
-                  'y': 17
-                  id: 66ae46743059be03c5575093
+                  coordnate: 505
+                  x: 522
+                  'y': 413
+                  id: 66ae47acdd20fa03e9155925
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-10-03T14:07:09.755Z'
-                  updatedAt: '2025-06-28T16:20:35.802Z'
+                  createdAt: '2025-05-31T13:34:43.891Z'
+                  updatedAt: '2025-03-12T23:48:12.674Z'
   /admin/table/softDelete/{id}:
     put:
       tags:
@@ -3914,17 +3914,17 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  type: 253
-                  size: 174
-                  time: 854
-                  jogada: 66ae46743059be03c55750a4
-                  chat: 66ae46743059be03c55750a5
-                  timepast: 827
-                  id: 66ae46743059be03c55750a9
+                  type: 581
+                  size: 320
+                  time: 69
+                  jogada: 66ae47acdd20fa03e9155936
+                  chat: 66ae47acdd20fa03e9155937
+                  timepast: 228
+                  id: 66ae47acdd20fa03e915593b
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-04-22T13:24:14.505Z'
-                  updatedAt: '2025-01-15T21:50:23.623Z'
+                  createdAt: '2025-07-22T12:19:04.834Z'
+                  updatedAt: '2025-04-28T02:20:02.774Z'
   /admin/game/create:
     post:
       tags:
@@ -3936,12 +3936,12 @@ paths:
             schema:
               type: object
               example:
-                type: 253
-                size: 174
-                time: 854
-                jogada: 66ae46743059be03c55750a4
-                chat: 66ae46743059be03c55750a5
-                timepast: 827
+                type: 581
+                size: 320
+                time: 69
+                jogada: 66ae47acdd20fa03e9155936
+                chat: 66ae47acdd20fa03e9155937
+                timepast: 228
       security:
         - bearerAuth: []
       parameters:
@@ -3966,17 +3966,17 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  type: 253
-                  size: 174
-                  time: 854
-                  jogada: 66ae46743059be03c55750a4
-                  chat: 66ae46743059be03c55750a5
-                  timepast: 827
-                  id: 66ae46743059be03c55750a7
+                  type: 581
+                  size: 320
+                  time: 69
+                  jogada: 66ae47acdd20fa03e9155936
+                  chat: 66ae47acdd20fa03e9155937
+                  timepast: 228
+                  id: 66ae47acdd20fa03e9155939
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-04-22T13:24:14.505Z'
-                  updatedAt: '2025-01-15T21:50:23.623Z'
+                  createdAt: '2025-07-22T12:19:04.834Z'
+                  updatedAt: '2025-04-28T02:20:02.774Z'
   /admin/game/list:
     post:
       tags:
@@ -4034,17 +4034,17 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - type: 253
-                      size: 174
-                      time: 854
-                      jogada: 66ae46743059be03c55750a4
-                      chat: 66ae46743059be03c55750a5
-                      timepast: 827
-                      id: 66ae46743059be03c55750a8
+                    - type: 581
+                      size: 320
+                      time: 69
+                      jogada: 66ae47acdd20fa03e9155936
+                      chat: 66ae47acdd20fa03e9155937
+                      timepast: 228
+                      id: 66ae47acdd20fa03e915593a
                       isDeleted: false
                       isActive: true
-                      createdAt: '2025-04-22T13:24:14.505Z'
-                      updatedAt: '2025-01-15T21:50:23.623Z'
+                      createdAt: '2025-07-22T12:19:04.834Z'
+                      updatedAt: '2025-04-28T02:20:02.774Z'
                   paginator:
                     itemCount: 1
                     offset: 0
@@ -4106,12 +4106,12 @@ paths:
               type: object
               example:
                 data:
-                  - type: 253
-                    size: 174
-                    time: 854
-                    jogada: 66ae46743059be03c55750a4
-                    chat: 66ae46743059be03c55750a5
-                    timepast: 827
+                  - type: 581
+                    size: 320
+                    time: 69
+                    jogada: 66ae47acdd20fa03e9155936
+                    chat: 66ae47acdd20fa03e9155937
+                    timepast: 228
       security:
         - bearerAuth: []
       parameters:
@@ -4187,12 +4187,12 @@ paths:
             schema:
               type: object
               example:
-                type: 253
-                size: 174
-                time: 854
-                jogada: 66ae46743059be03c55750a4
-                chat: 66ae46743059be03c55750a5
-                timepast: 827
+                type: 581
+                size: 320
+                time: 69
+                jogada: 66ae47acdd20fa03e9155936
+                chat: 66ae47acdd20fa03e9155937
+                timepast: 228
       security:
         - bearerAuth: []
       parameters:
@@ -4222,17 +4222,17 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  type: 253
-                  size: 174
-                  time: 854
-                  jogada: 66ae46743059be03c55750a4
-                  chat: 66ae46743059be03c55750a5
-                  timepast: 827
-                  id: 66ae46743059be03c55750aa
+                  type: 581
+                  size: 320
+                  time: 69
+                  jogada: 66ae47acdd20fa03e9155936
+                  chat: 66ae47acdd20fa03e9155937
+                  timepast: 228
+                  id: 66ae47acdd20fa03e915593c
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-04-22T13:24:14.505Z'
-                  updatedAt: '2025-01-15T21:50:23.623Z'
+                  createdAt: '2025-07-22T12:19:04.834Z'
+                  updatedAt: '2025-04-28T02:20:02.774Z'
   /admin/game/partial-update/{id}:
     put:
       tags:
@@ -4275,17 +4275,17 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  type: 253
-                  size: 174
-                  time: 854
-                  jogada: 66ae46743059be03c55750a4
-                  chat: 66ae46743059be03c55750a5
-                  timepast: 827
-                  id: 66ae46743059be03c55750ab
+                  type: 581
+                  size: 320
+                  time: 69
+                  jogada: 66ae47acdd20fa03e9155936
+                  chat: 66ae47acdd20fa03e9155937
+                  timepast: 228
+                  id: 66ae47acdd20fa03e915593d
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-04-22T13:24:14.505Z'
-                  updatedAt: '2025-01-15T21:50:23.623Z'
+                  createdAt: '2025-07-22T12:19:04.834Z'
+                  updatedAt: '2025-04-28T02:20:02.774Z'
   /admin/game/softDelete/{id}:
     put:
       tags:
@@ -4474,16 +4474,16 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  username: Lenny_Gulgowski
-                  email: Rupert_Kub3@gmail.com
-                  name: Essie Streich
-                  mobileNo: (536) 836-9665
+                  username: Ellis73
+                  email: Cecelia68@gmail.com
+                  name: Mrs. Edna Kuhic
+                  mobileNo: (682) 423-3514
                   userType: 1
-                  id: 66ae46743059be03c55750bf
+                  id: 66ae47acdd20fa03e9155951
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-09-14T22:08:16.588Z'
-                  updatedAt: '2024-09-02T04:28:35.254Z'
+                  createdAt: '2024-10-07T00:10:46.325Z'
+                  updatedAt: '2025-08-01T15:44:34.011Z'
   /admin/user/me:
     get:
       tags:
@@ -4513,16 +4513,16 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  username: Lenny_Gulgowski
-                  email: Rupert_Kub3@gmail.com
-                  name: Essie Streich
-                  mobileNo: (536) 836-9665
+                  username: Ellis73
+                  email: Cecelia68@gmail.com
+                  name: Mrs. Edna Kuhic
+                  mobileNo: (682) 423-3514
                   userType: 1
-                  id: 66ae46743059be03c55750c5
+                  id: 66ae47acdd20fa03e9155957
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-09-14T22:08:16.588Z'
-                  updatedAt: '2024-09-02T04:28:35.254Z'
+                  createdAt: '2024-10-07T00:10:46.325Z'
+                  updatedAt: '2025-08-01T15:44:34.011Z'
   /admin/user/create:
     post:
       tags:
@@ -4534,11 +4534,11 @@ paths:
             schema:
               type: object
               example:
-                username: Lenny_Gulgowski
-                password: igzeuurbaaZ0ZgL
-                email: Rupert_Kub3@gmail.com
-                name: Essie Streich
-                mobileNo: (536) 836-9665
+                username: Ellis73
+                password: b1xcUeMLzDGhvyQ
+                email: Cecelia68@gmail.com
+                name: Mrs. Edna Kuhic
+                mobileNo: (682) 423-3514
                 userType: 1
       security:
         - bearerAuth: []
@@ -4564,16 +4564,16 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  username: Lenny_Gulgowski
-                  email: Rupert_Kub3@gmail.com
-                  name: Essie Streich
-                  mobileNo: (536) 836-9665
+                  username: Ellis73
+                  email: Cecelia68@gmail.com
+                  name: Mrs. Edna Kuhic
+                  mobileNo: (682) 423-3514
                   userType: 1
-                  id: 66ae46743059be03c55750bd
+                  id: 66ae47acdd20fa03e915594f
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-09-14T22:08:16.588Z'
-                  updatedAt: '2024-09-02T04:28:35.254Z'
+                  createdAt: '2024-10-07T00:10:46.325Z'
+                  updatedAt: '2025-08-01T15:44:34.011Z'
   /admin/user/list:
     post:
       tags:
@@ -4631,16 +4631,16 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - username: Lenny_Gulgowski
-                      email: Rupert_Kub3@gmail.com
-                      name: Essie Streich
-                      mobileNo: (536) 836-9665
+                    - username: Ellis73
+                      email: Cecelia68@gmail.com
+                      name: Mrs. Edna Kuhic
+                      mobileNo: (682) 423-3514
                       userType: 1
-                      id: 66ae46743059be03c55750be
+                      id: 66ae47acdd20fa03e9155950
                       isDeleted: false
                       isActive: true
-                      createdAt: '2024-09-14T22:08:16.588Z'
-                      updatedAt: '2024-09-02T04:28:35.254Z'
+                      createdAt: '2024-10-07T00:10:46.325Z'
+                      updatedAt: '2025-08-01T15:44:34.011Z'
                   paginator:
                     itemCount: 1
                     offset: 0
@@ -4702,11 +4702,11 @@ paths:
               type: object
               example:
                 data:
-                  - username: Lenny_Gulgowski
-                    password: igzeuurbaaZ0ZgL
-                    email: Rupert_Kub3@gmail.com
-                    name: Essie Streich
-                    mobileNo: (536) 836-9665
+                  - username: Ellis73
+                    password: b1xcUeMLzDGhvyQ
+                    email: Cecelia68@gmail.com
+                    name: Mrs. Edna Kuhic
+                    mobileNo: (682) 423-3514
                     userType: 1
       security:
         - bearerAuth: []
@@ -4783,11 +4783,11 @@ paths:
             schema:
               type: object
               example:
-                username: Lenny_Gulgowski
-                password: igzeuurbaaZ0ZgL
-                email: Rupert_Kub3@gmail.com
-                name: Essie Streich
-                mobileNo: (536) 836-9665
+                username: Ellis73
+                password: b1xcUeMLzDGhvyQ
+                email: Cecelia68@gmail.com
+                name: Mrs. Edna Kuhic
+                mobileNo: (682) 423-3514
                 userType: 1
       security:
         - bearerAuth: []
@@ -4818,16 +4818,16 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  username: Lenny_Gulgowski
-                  email: Rupert_Kub3@gmail.com
-                  name: Essie Streich
-                  mobileNo: (536) 836-9665
+                  username: Ellis73
+                  email: Cecelia68@gmail.com
+                  name: Mrs. Edna Kuhic
+                  mobileNo: (682) 423-3514
                   userType: 1
-                  id: 66ae46743059be03c55750c0
+                  id: 66ae47acdd20fa03e9155952
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-09-14T22:08:16.588Z'
-                  updatedAt: '2024-09-02T04:28:35.254Z'
+                  createdAt: '2024-10-07T00:10:46.325Z'
+                  updatedAt: '2025-08-01T15:44:34.011Z'
   /admin/user/partial-update/{id}:
     put:
       tags:
@@ -4870,16 +4870,16 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  username: Lenny_Gulgowski
-                  email: Rupert_Kub3@gmail.com
-                  name: Essie Streich
-                  mobileNo: (536) 836-9665
+                  username: Ellis73
+                  email: Cecelia68@gmail.com
+                  name: Mrs. Edna Kuhic
+                  mobileNo: (682) 423-3514
                   userType: 1
-                  id: 66ae46743059be03c55750c1
+                  id: 66ae47acdd20fa03e9155953
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-09-14T22:08:16.588Z'
-                  updatedAt: '2024-09-02T04:28:35.254Z'
+                  createdAt: '2024-10-07T00:10:46.325Z'
+                  updatedAt: '2025-08-01T15:44:34.011Z'
   /admin/user/softDelete/{id}:
     put:
       tags:
@@ -5010,11 +5010,11 @@ paths:
             schema:
               type: object
               example:
-                username: Lenny_Gulgowski
-                password: igzeuurbaaZ0ZgL
-                email: Rupert_Kub3@gmail.com
-                name: Essie Streich
-                mobileNo: (536) 836-9665
+                username: Ellis73
+                password: b1xcUeMLzDGhvyQ
+                email: Cecelia68@gmail.com
+                name: Mrs. Edna Kuhic
+                mobileNo: (682) 423-3514
                 userType: 1
       security:
         - bearerAuth: []
@@ -5040,16 +5040,16 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  username: Lenny_Gulgowski
-                  email: Rupert_Kub3@gmail.com
-                  name: Essie Streich
-                  mobileNo: (536) 836-9665
+                  username: Ellis73
+                  email: Cecelia68@gmail.com
+                  name: Mrs. Edna Kuhic
+                  mobileNo: (682) 423-3514
                   userType: 1
-                  id: 66ae46743059be03c55750c4
+                  id: 66ae47acdd20fa03e9155956
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-09-14T22:08:16.588Z'
-                  updatedAt: '2024-09-02T04:28:35.254Z'
+                  createdAt: '2024-10-07T00:10:46.325Z'
+                  updatedAt: '2025-08-01T15:44:34.011Z'
   /admin/user/delete/{id}:
     delete:
       tags:
@@ -5122,18 +5122,18 @@ paths:
                 status: SUCCESS
                 message: Login Successful
                 data:
-                  username: Lenny_Gulgowski
-                  email: Rupert_Kub3@gmail.com
-                  name: Essie Streich
-                  mobileNo: (536) 836-9665
-                  id: 66ae46743059be03c55750c6
+                  username: Ellis73
+                  email: Cecelia68@gmail.com
+                  name: Mrs. Edna Kuhic
+                  mobileNo: (682) 423-3514
+                  id: 66ae47acdd20fa03e9155958
                   loginRetryLimit: 0
                   token: >-
                     eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMWRlZDVjMGFjMjAxMmFjMDI4ODkxZiIsInVzZXJuYW1lIjoiYWRtaW4iLCJpYXQiOjE2MjkzNTEyNzAsImV4cCI6MTYyOTk1MTI3MH0.BJ-WKjNYeFDQ4pn8kfli5gwn6GLz_c3voFht20Agj9k
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-09-25T22:55:55.583Z'
-                  updatedAt: '2024-08-07T12:05:18.858Z'
+                  createdAt: '2024-10-23T20:27:49.374Z'
+                  updatedAt: '2024-09-03T02:14:58.279Z'
   /admin/auth/register:
     post:
       tags:
@@ -5145,11 +5145,11 @@ paths:
             schema:
               type: object
               example:
-                username: Lenny_Gulgowski
-                password: igzeuurbaaZ0ZgL
-                email: Rupert_Kub3@gmail.com
-                name: Essie Streich
-                mobileNo: (536) 836-9665
+                username: Ellis73
+                password: b1xcUeMLzDGhvyQ
+                email: Cecelia68@gmail.com
+                name: Mrs. Edna Kuhic
+                mobileNo: (682) 423-3514
       security:
         - undefinedAuth: []
       parameters:
@@ -5174,16 +5174,16 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  username: Lenny_Gulgowski
-                  email: Rupert_Kub3@gmail.com
-                  name: Essie Streich
-                  mobileNo: (536) 836-9665
-                  id: 66ae46743059be03c55750c6
+                  username: Ellis73
+                  email: Cecelia68@gmail.com
+                  name: Mrs. Edna Kuhic
+                  mobileNo: (682) 423-3514
+                  id: 66ae47acdd20fa03e9155958
                   loginRetryLimit: 0
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-09-25T22:55:55.583Z'
-                  updatedAt: '2024-08-07T12:05:18.858Z'
+                  createdAt: '2024-10-23T20:27:49.374Z'
+                  updatedAt: '2024-09-03T02:14:58.279Z'
   /admin/auth/forgot-password:
     post:
       tags:
@@ -5368,14 +5368,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  name: Lynda Streich
-                  code: Concrete
-                  weight: 442
-                  id: 66ae46743059be03c55750e4
+                  name: Stacy Pagac
+                  code: Money
+                  weight: 546
+                  id: 66ae47acdd20fa03e9155976
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-07-14T04:15:14.129Z'
-                  updatedAt: '2024-09-08T00:11:58.950Z'
+                  createdAt: '2025-01-05T14:20:34.661Z'
+                  updatedAt: '2024-12-23T12:26:50.313Z'
   /admin/role/create:
     post:
       tags:
@@ -5387,9 +5387,9 @@ paths:
             schema:
               type: object
               example:
-                name: Lynda Streich
-                code: Concrete
-                weight: 442
+                name: Stacy Pagac
+                code: Money
+                weight: 546
       security:
         - bearerAuth: []
       parameters:
@@ -5414,14 +5414,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  name: Lynda Streich
-                  code: Concrete
-                  weight: 442
-                  id: 66ae46743059be03c55750de
+                  name: Stacy Pagac
+                  code: Money
+                  weight: 546
+                  id: 66ae47acdd20fa03e9155970
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-07-14T04:15:14.129Z'
-                  updatedAt: '2024-09-08T00:11:58.950Z'
+                  createdAt: '2025-01-05T14:20:34.661Z'
+                  updatedAt: '2024-12-23T12:26:50.313Z'
   /admin/role/addBulk:
     post:
       tags:
@@ -5434,9 +5434,9 @@ paths:
               type: object
               example:
                 data:
-                  - name: Lynda Streich
-                    code: Concrete
-                    weight: 442
+                  - name: Stacy Pagac
+                    code: Money
+                    weight: 546
       security:
         - bearerAuth: []
       parameters:
@@ -5519,14 +5519,14 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - name: Lynda Streich
-                      code: Concrete
-                      weight: 442
-                      id: 66ae46743059be03c55750e0
+                    - name: Stacy Pagac
+                      code: Money
+                      weight: 546
+                      id: 66ae47acdd20fa03e9155972
                       isDeleted: false
                       isActive: true
-                      createdAt: '2025-07-14T04:15:14.129Z'
-                      updatedAt: '2024-09-08T00:11:58.950Z'
+                      createdAt: '2025-01-05T14:20:34.661Z'
+                      updatedAt: '2024-12-23T12:26:50.313Z'
                   paginator:
                     itemCount: 1
                     offset: 0
@@ -5776,14 +5776,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  name: Lynda Streich
-                  code: Concrete
-                  weight: 442
-                  id: 66ae46743059be03c55750e2
+                  name: Stacy Pagac
+                  code: Money
+                  weight: 546
+                  id: 66ae47acdd20fa03e9155974
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-07-14T04:15:14.129Z'
-                  updatedAt: '2024-09-08T00:11:58.950Z'
+                  createdAt: '2025-01-05T14:20:34.661Z'
+                  updatedAt: '2024-12-23T12:26:50.313Z'
   /admin/role/update/{id}:
     put:
       tags:
@@ -5795,9 +5795,9 @@ paths:
             schema:
               type: object
               example:
-                name: Lynda Streich
-                code: Concrete
-                weight: 442
+                name: Stacy Pagac
+                code: Money
+                weight: 546
       security:
         - bearerAuth: []
       parameters:
@@ -5827,14 +5827,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  name: Lynda Streich
-                  code: Concrete
-                  weight: 442
-                  id: 66ae46743059be03c55750e3
+                  name: Stacy Pagac
+                  code: Money
+                  weight: 546
+                  id: 66ae47acdd20fa03e9155975
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-07-14T04:15:14.129Z'
-                  updatedAt: '2024-09-08T00:11:58.950Z'
+                  createdAt: '2025-01-05T14:20:34.661Z'
+                  updatedAt: '2024-12-23T12:26:50.313Z'
   /admin/role/delete/{id}:
     delete:
       tags:
@@ -5904,14 +5904,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  route_name: bluetooth
-                  method: IB
-                  uri: analyzer
-                  id: 66ae46743059be03c55750ec
+                  route_name: Card
+                  method: GB
+                  uri: Account
+                  id: 66ae47acdd20fa03e915597e
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-07-11T23:56:22.765Z'
-                  updatedAt: '2025-02-04T17:45:49.140Z'
+                  createdAt: '2025-02-04T13:26:39.927Z'
+                  updatedAt: '2024-09-27T14:39:29.130Z'
   /admin/projectroute/create:
     post:
       tags:
@@ -5923,9 +5923,9 @@ paths:
             schema:
               type: object
               example:
-                route_name: bluetooth
-                method: IB
-                uri: analyzer
+                route_name: Card
+                method: GB
+                uri: Account
       security:
         - bearerAuth: []
       parameters:
@@ -5950,14 +5950,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  route_name: bluetooth
-                  method: IB
-                  uri: analyzer
-                  id: 66ae46743059be03c55750e6
+                  route_name: Card
+                  method: GB
+                  uri: Account
+                  id: 66ae47acdd20fa03e9155978
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-07-11T23:56:22.765Z'
-                  updatedAt: '2025-02-04T17:45:49.140Z'
+                  createdAt: '2025-02-04T13:26:39.927Z'
+                  updatedAt: '2024-09-27T14:39:29.130Z'
   /admin/projectroute/addBulk:
     post:
       tags:
@@ -5970,9 +5970,9 @@ paths:
               type: object
               example:
                 data:
-                  - route_name: bluetooth
-                    method: IB
-                    uri: analyzer
+                  - route_name: Card
+                    method: GB
+                    uri: Account
       security:
         - bearerAuth: []
       parameters:
@@ -6055,14 +6055,14 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - route_name: bluetooth
-                      method: IB
-                      uri: analyzer
-                      id: 66ae46743059be03c55750e8
+                    - route_name: Card
+                      method: GB
+                      uri: Account
+                      id: 66ae47acdd20fa03e915597a
                       isDeleted: false
                       isActive: true
-                      createdAt: '2025-07-11T23:56:22.765Z'
-                      updatedAt: '2025-02-04T17:45:49.140Z'
+                      createdAt: '2025-02-04T13:26:39.927Z'
+                      updatedAt: '2024-09-27T14:39:29.130Z'
                   paginator:
                     itemCount: 1
                     offset: 0
@@ -6312,14 +6312,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  route_name: bluetooth
-                  method: IB
-                  uri: analyzer
-                  id: 66ae46743059be03c55750ea
+                  route_name: Card
+                  method: GB
+                  uri: Account
+                  id: 66ae47acdd20fa03e915597c
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-07-11T23:56:22.765Z'
-                  updatedAt: '2025-02-04T17:45:49.140Z'
+                  createdAt: '2025-02-04T13:26:39.927Z'
+                  updatedAt: '2024-09-27T14:39:29.130Z'
   /admin/projectroute/update/{id}:
     put:
       tags:
@@ -6331,9 +6331,9 @@ paths:
             schema:
               type: object
               example:
-                route_name: bluetooth
-                method: IB
-                uri: analyzer
+                route_name: Card
+                method: GB
+                uri: Account
       security:
         - bearerAuth: []
       parameters:
@@ -6363,14 +6363,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  route_name: bluetooth
-                  method: IB
-                  uri: analyzer
-                  id: 66ae46743059be03c55750eb
+                  route_name: Card
+                  method: GB
+                  uri: Account
+                  id: 66ae47acdd20fa03e915597d
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-07-11T23:56:22.765Z'
-                  updatedAt: '2025-02-04T17:45:49.140Z'
+                  createdAt: '2025-02-04T13:26:39.927Z'
+                  updatedAt: '2024-09-27T14:39:29.130Z'
   /admin/projectroute/delete/{id}:
     delete:
       tags:
@@ -6440,13 +6440,13 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  routeId: 66ae46743059be03c55750ed
-                  roleId: 66ae46743059be03c55750ee
-                  id: 66ae46743059be03c55750f6
+                  routeId: 66ae47acdd20fa03e915597f
+                  roleId: 66ae47acdd20fa03e9155980
+                  id: 66ae47acdd20fa03e9155988
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-07-04T14:24:34.805Z'
-                  updatedAt: '2025-01-31T05:04:22.999Z'
+                  createdAt: '2024-09-07T12:29:24.989Z'
+                  updatedAt: '2024-08-15T16:51:15.245Z'
   /admin/routerole/create:
     post:
       tags:
@@ -6458,8 +6458,8 @@ paths:
             schema:
               type: object
               example:
-                routeId: 66ae46743059be03c55750ed
-                roleId: 66ae46743059be03c55750ee
+                routeId: 66ae47acdd20fa03e915597f
+                roleId: 66ae47acdd20fa03e9155980
       security:
         - bearerAuth: []
       parameters:
@@ -6484,13 +6484,13 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  routeId: 66ae46743059be03c55750ed
-                  roleId: 66ae46743059be03c55750ee
-                  id: 66ae46743059be03c55750f0
+                  routeId: 66ae47acdd20fa03e915597f
+                  roleId: 66ae47acdd20fa03e9155980
+                  id: 66ae47acdd20fa03e9155982
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-07-04T14:24:34.805Z'
-                  updatedAt: '2025-01-31T05:04:22.999Z'
+                  createdAt: '2024-09-07T12:29:24.989Z'
+                  updatedAt: '2024-08-15T16:51:15.245Z'
   /admin/routerole/addBulk:
     post:
       tags:
@@ -6503,8 +6503,8 @@ paths:
               type: object
               example:
                 data:
-                  - routeId: 66ae46743059be03c55750ed
-                    roleId: 66ae46743059be03c55750ee
+                  - routeId: 66ae47acdd20fa03e915597f
+                    roleId: 66ae47acdd20fa03e9155980
       security:
         - bearerAuth: []
       parameters:
@@ -6587,13 +6587,13 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - routeId: 66ae46743059be03c55750ed
-                      roleId: 66ae46743059be03c55750ee
-                      id: 66ae46743059be03c55750f2
+                    - routeId: 66ae47acdd20fa03e915597f
+                      roleId: 66ae47acdd20fa03e9155980
+                      id: 66ae47acdd20fa03e9155984
                       isDeleted: false
                       isActive: true
-                      createdAt: '2025-07-04T14:24:34.805Z'
-                      updatedAt: '2025-01-31T05:04:22.999Z'
+                      createdAt: '2024-09-07T12:29:24.989Z'
+                      updatedAt: '2024-08-15T16:51:15.245Z'
                   paginator:
                     itemCount: 1
                     offset: 0
@@ -6843,13 +6843,13 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  routeId: 66ae46743059be03c55750ed
-                  roleId: 66ae46743059be03c55750ee
-                  id: 66ae46743059be03c55750f4
+                  routeId: 66ae47acdd20fa03e915597f
+                  roleId: 66ae47acdd20fa03e9155980
+                  id: 66ae47acdd20fa03e9155986
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-07-04T14:24:34.805Z'
-                  updatedAt: '2025-01-31T05:04:22.999Z'
+                  createdAt: '2024-09-07T12:29:24.989Z'
+                  updatedAt: '2024-08-15T16:51:15.245Z'
   /admin/routerole/update/{id}:
     put:
       tags:
@@ -6861,8 +6861,8 @@ paths:
             schema:
               type: object
               example:
-                routeId: 66ae46743059be03c55750ed
-                roleId: 66ae46743059be03c55750ee
+                routeId: 66ae47acdd20fa03e915597f
+                roleId: 66ae47acdd20fa03e9155980
       security:
         - bearerAuth: []
       parameters:
@@ -6892,13 +6892,13 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  routeId: 66ae46743059be03c55750ed
-                  roleId: 66ae46743059be03c55750ee
-                  id: 66ae46743059be03c55750f5
+                  routeId: 66ae47acdd20fa03e915597f
+                  roleId: 66ae47acdd20fa03e9155980
+                  id: 66ae47acdd20fa03e9155987
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-07-04T14:24:34.805Z'
-                  updatedAt: '2025-01-31T05:04:22.999Z'
+                  createdAt: '2024-09-07T12:29:24.989Z'
+                  updatedAt: '2024-08-15T16:51:15.245Z'
   /admin/routerole/delete/{id}:
     delete:
       tags:
@@ -6968,13 +6968,13 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  userId: 66ae46743059be03c55750f7
-                  roleId: 66ae46743059be03c55750f8
-                  id: 66ae46743059be03c5575100
+                  userId: 66ae47acdd20fa03e9155989
+                  roleId: 66ae47acdd20fa03e915598a
+                  id: 66ae47acdd20fa03e9155992
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-12-12T17:32:08.106Z'
-                  updatedAt: '2025-03-07T11:00:09.391Z'
+                  createdAt: '2024-10-21T20:50:28.485Z'
+                  updatedAt: '2025-05-02T15:00:36.527Z'
   /admin/userrole/create:
     post:
       tags:
@@ -6986,8 +6986,8 @@ paths:
             schema:
               type: object
               example:
-                userId: 66ae46743059be03c55750f7
-                roleId: 66ae46743059be03c55750f8
+                userId: 66ae47acdd20fa03e9155989
+                roleId: 66ae47acdd20fa03e915598a
       security:
         - bearerAuth: []
       parameters:
@@ -7012,13 +7012,13 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  userId: 66ae46743059be03c55750f7
-                  roleId: 66ae46743059be03c55750f8
-                  id: 66ae46743059be03c55750fa
+                  userId: 66ae47acdd20fa03e9155989
+                  roleId: 66ae47acdd20fa03e915598a
+                  id: 66ae47acdd20fa03e915598c
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-12-12T17:32:08.106Z'
-                  updatedAt: '2025-03-07T11:00:09.391Z'
+                  createdAt: '2024-10-21T20:50:28.485Z'
+                  updatedAt: '2025-05-02T15:00:36.527Z'
   /admin/userrole/addBulk:
     post:
       tags:
@@ -7031,8 +7031,8 @@ paths:
               type: object
               example:
                 data:
-                  - userId: 66ae46743059be03c55750f7
-                    roleId: 66ae46743059be03c55750f8
+                  - userId: 66ae47acdd20fa03e9155989
+                    roleId: 66ae47acdd20fa03e915598a
       security:
         - bearerAuth: []
       parameters:
@@ -7115,13 +7115,13 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - userId: 66ae46743059be03c55750f7
-                      roleId: 66ae46743059be03c55750f8
-                      id: 66ae46743059be03c55750fc
+                    - userId: 66ae47acdd20fa03e9155989
+                      roleId: 66ae47acdd20fa03e915598a
+                      id: 66ae47acdd20fa03e915598e
                       isDeleted: false
                       isActive: true
-                      createdAt: '2024-12-12T17:32:08.106Z'
-                      updatedAt: '2025-03-07T11:00:09.391Z'
+                      createdAt: '2024-10-21T20:50:28.485Z'
+                      updatedAt: '2025-05-02T15:00:36.527Z'
                   paginator:
                     itemCount: 1
                     offset: 0
@@ -7371,13 +7371,13 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  userId: 66ae46743059be03c55750f7
-                  roleId: 66ae46743059be03c55750f8
-                  id: 66ae46743059be03c55750fe
+                  userId: 66ae47acdd20fa03e9155989
+                  roleId: 66ae47acdd20fa03e915598a
+                  id: 66ae47acdd20fa03e9155990
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-12-12T17:32:08.106Z'
-                  updatedAt: '2025-03-07T11:00:09.391Z'
+                  createdAt: '2024-10-21T20:50:28.485Z'
+                  updatedAt: '2025-05-02T15:00:36.527Z'
   /admin/userrole/update/{id}:
     put:
       tags:
@@ -7389,8 +7389,8 @@ paths:
             schema:
               type: object
               example:
-                userId: 66ae46743059be03c55750f7
-                roleId: 66ae46743059be03c55750f8
+                userId: 66ae47acdd20fa03e9155989
+                roleId: 66ae47acdd20fa03e915598a
       security:
         - bearerAuth: []
       parameters:
@@ -7420,13 +7420,13 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  userId: 66ae46743059be03c55750f7
-                  roleId: 66ae46743059be03c55750f8
-                  id: 66ae46743059be03c55750ff
+                  userId: 66ae47acdd20fa03e9155989
+                  roleId: 66ae47acdd20fa03e915598a
+                  id: 66ae47acdd20fa03e9155991
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-12-12T17:32:08.106Z'
-                  updatedAt: '2025-03-07T11:00:09.391Z'
+                  createdAt: '2024-10-21T20:50:28.485Z'
+                  updatedAt: '2025-05-02T15:00:36.527Z'
   /admin/userrole/delete/{id}:
     delete:
       tags:
@@ -7496,10 +7496,10 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  pieceId: 66ae46743059be03c5575005
-                  targetPosition: 66ae46743059be03c5575006
-                  date: '2025-04-18T09:16:35.489Z'
-                  id: 66ae46743059be03c5575011
+                  pieceId: 66ae47acdd20fa03e9155897
+                  targetPosition: 66ae47acdd20fa03e9155898
+                  date: '2024-11-08T13:51:18.042Z'
+                  id: 66ae47acdd20fa03e91558a3
                   isDeleted: false
   /device/api/v1/move/create:
     post:
@@ -7512,9 +7512,9 @@ paths:
             schema:
               type: object
               example:
-                pieceId: 66ae46743059be03c5575005
-                targetPosition: 66ae46743059be03c5575006
-                date: '2025-04-18T09:16:35.489Z'
+                pieceId: 66ae47acdd20fa03e9155897
+                targetPosition: 66ae47acdd20fa03e9155898
+                date: '2024-11-08T13:51:18.042Z'
       security:
         - bearerAuth: []
       parameters:
@@ -7539,10 +7539,10 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  pieceId: 66ae46743059be03c5575005
-                  targetPosition: 66ae46743059be03c5575006
-                  date: '2025-04-18T09:16:35.489Z'
-                  id: 66ae46743059be03c557500f
+                  pieceId: 66ae47acdd20fa03e9155897
+                  targetPosition: 66ae47acdd20fa03e9155898
+                  date: '2024-11-08T13:51:18.042Z'
+                  id: 66ae47acdd20fa03e91558a1
                   isDeleted: false
   /device/api/v1/move/list:
     post:
@@ -7601,10 +7601,10 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - pieceId: 66ae46743059be03c5575005
-                      targetPosition: 66ae46743059be03c5575006
-                      date: '2025-04-18T09:16:35.489Z'
-                      id: 66ae46743059be03c5575010
+                    - pieceId: 66ae47acdd20fa03e9155897
+                      targetPosition: 66ae47acdd20fa03e9155898
+                      date: '2024-11-08T13:51:18.042Z'
+                      id: 66ae47acdd20fa03e91558a2
                       isDeleted: false
                   paginator:
                     itemCount: 1
@@ -7667,9 +7667,9 @@ paths:
               type: object
               example:
                 data:
-                  - pieceId: 66ae46743059be03c5575005
-                    targetPosition: 66ae46743059be03c5575006
-                    date: '2025-04-18T09:16:35.489Z'
+                  - pieceId: 66ae47acdd20fa03e9155897
+                    targetPosition: 66ae47acdd20fa03e9155898
+                    date: '2024-11-08T13:51:18.042Z'
       security:
         - bearerAuth: []
       parameters:
@@ -7745,9 +7745,9 @@ paths:
             schema:
               type: object
               example:
-                pieceId: 66ae46743059be03c5575005
-                targetPosition: 66ae46743059be03c5575006
-                date: '2025-04-18T09:16:35.489Z'
+                pieceId: 66ae47acdd20fa03e9155897
+                targetPosition: 66ae47acdd20fa03e9155898
+                date: '2024-11-08T13:51:18.042Z'
       security:
         - bearerAuth: []
       parameters:
@@ -7777,10 +7777,10 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  pieceId: 66ae46743059be03c5575005
-                  targetPosition: 66ae46743059be03c5575006
-                  date: '2025-04-18T09:16:35.489Z'
-                  id: 66ae46743059be03c5575012
+                  pieceId: 66ae47acdd20fa03e9155897
+                  targetPosition: 66ae47acdd20fa03e9155898
+                  date: '2024-11-08T13:51:18.042Z'
+                  id: 66ae47acdd20fa03e91558a4
                   isDeleted: false
   /device/api/v1/move/partial-update/{id}:
     put:
@@ -7824,10 +7824,10 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  pieceId: 66ae46743059be03c5575005
-                  targetPosition: 66ae46743059be03c5575006
-                  date: '2025-04-18T09:16:35.489Z'
-                  id: 66ae46743059be03c5575013
+                  pieceId: 66ae47acdd20fa03e9155897
+                  targetPosition: 66ae47acdd20fa03e9155898
+                  date: '2024-11-08T13:51:18.042Z'
+                  id: 66ae47acdd20fa03e91558a5
                   isDeleted: false
   /device/api/v1/move/softDelete/{id}:
     put:
@@ -8066,14 +8066,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  name: Laverne Fisher
-                  code: Functionality
-                  admin: Buckinghamshire
-                  id: 66ae46743059be03c5575027
+                  name: Ernest Blick
+                  code: monitor
+                  admin: Regional
+                  id: 66ae47acdd20fa03e91558b9
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-08-01T17:24:53.845Z'
-                  updatedAt: '2024-12-08T11:42:45.121Z'
+                  createdAt: '2024-12-03T12:26:00.329Z'
+                  updatedAt: '2025-03-22T13:09:18.096Z'
   /device/api/v1/chat_group/create:
     post:
       tags:
@@ -8085,9 +8085,9 @@ paths:
             schema:
               type: object
               example:
-                name: Laverne Fisher
-                code: Functionality
-                admin: Buckinghamshire
+                name: Ernest Blick
+                code: monitor
+                admin: Regional
       security:
         - bearerAuth: []
       parameters:
@@ -8112,14 +8112,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  name: Laverne Fisher
-                  code: Functionality
-                  admin: Buckinghamshire
-                  id: 66ae46743059be03c5575025
+                  name: Ernest Blick
+                  code: monitor
+                  admin: Regional
+                  id: 66ae47acdd20fa03e91558b7
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-08-01T17:24:53.845Z'
-                  updatedAt: '2024-12-08T11:42:45.121Z'
+                  createdAt: '2024-12-03T12:26:00.329Z'
+                  updatedAt: '2025-03-22T13:09:18.096Z'
   /device/api/v1/chat_group/list:
     post:
       tags:
@@ -8177,14 +8177,14 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - name: Laverne Fisher
-                      code: Functionality
-                      admin: Buckinghamshire
-                      id: 66ae46743059be03c5575026
+                    - name: Ernest Blick
+                      code: monitor
+                      admin: Regional
+                      id: 66ae47acdd20fa03e91558b8
                       isDeleted: false
                       isActive: true
-                      createdAt: '2025-08-01T17:24:53.845Z'
-                      updatedAt: '2024-12-08T11:42:45.121Z'
+                      createdAt: '2024-12-03T12:26:00.329Z'
+                      updatedAt: '2025-03-22T13:09:18.096Z'
                   paginator:
                     itemCount: 1
                     offset: 0
@@ -8246,9 +8246,9 @@ paths:
               type: object
               example:
                 data:
-                  - name: Laverne Fisher
-                    code: Functionality
-                    admin: Buckinghamshire
+                  - name: Ernest Blick
+                    code: monitor
+                    admin: Regional
       security:
         - bearerAuth: []
       parameters:
@@ -8324,9 +8324,9 @@ paths:
             schema:
               type: object
               example:
-                name: Laverne Fisher
-                code: Functionality
-                admin: Buckinghamshire
+                name: Ernest Blick
+                code: monitor
+                admin: Regional
       security:
         - bearerAuth: []
       parameters:
@@ -8356,14 +8356,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  name: Laverne Fisher
-                  code: Functionality
-                  admin: Buckinghamshire
-                  id: 66ae46743059be03c5575028
+                  name: Ernest Blick
+                  code: monitor
+                  admin: Regional
+                  id: 66ae47acdd20fa03e91558ba
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-08-01T17:24:53.845Z'
-                  updatedAt: '2024-12-08T11:42:45.121Z'
+                  createdAt: '2024-12-03T12:26:00.329Z'
+                  updatedAt: '2025-03-22T13:09:18.096Z'
   /device/api/v1/chat_group/partial-update/{id}:
     put:
       tags:
@@ -8406,14 +8406,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  name: Laverne Fisher
-                  code: Functionality
-                  admin: Buckinghamshire
-                  id: 66ae46743059be03c5575029
+                  name: Ernest Blick
+                  code: monitor
+                  admin: Regional
+                  id: 66ae47acdd20fa03e91558bb
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-08-01T17:24:53.845Z'
-                  updatedAt: '2024-12-08T11:42:45.121Z'
+                  createdAt: '2024-12-03T12:26:00.329Z'
+                  updatedAt: '2025-03-22T13:09:18.096Z'
   /device/api/v1/chat_group/softDelete/{id}:
     put:
       tags:
@@ -8602,15 +8602,15 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  message: hacking
-                  sender: deposit
-                  recipient: Data
-                  groupId: 66ae46743059be03c5575033
-                  id: 66ae46743059be03c557503e
+                  message: Beauty
+                  sender: plum
+                  recipient: Assistant
+                  groupId: 66ae47acdd20fa03e91558c5
+                  id: 66ae47acdd20fa03e91558d0
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-10-19T13:28:41.306Z'
-                  updatedAt: '2025-07-15T19:56:59.991Z'
+                  createdAt: '2025-06-05T00:26:49.949Z'
+                  updatedAt: '2024-11-20T04:59:14.935Z'
   /device/api/v1/chat_message/create:
     post:
       tags:
@@ -8622,10 +8622,10 @@ paths:
             schema:
               type: object
               example:
-                message: hacking
-                sender: deposit
-                recipient: Data
-                groupId: 66ae46743059be03c5575033
+                message: Beauty
+                sender: plum
+                recipient: Assistant
+                groupId: 66ae47acdd20fa03e91558c5
       security:
         - bearerAuth: []
       parameters:
@@ -8650,15 +8650,15 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  message: hacking
-                  sender: deposit
-                  recipient: Data
-                  groupId: 66ae46743059be03c5575033
-                  id: 66ae46743059be03c557503c
+                  message: Beauty
+                  sender: plum
+                  recipient: Assistant
+                  groupId: 66ae47acdd20fa03e91558c5
+                  id: 66ae47acdd20fa03e91558ce
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-10-19T13:28:41.306Z'
-                  updatedAt: '2025-07-15T19:56:59.991Z'
+                  createdAt: '2025-06-05T00:26:49.949Z'
+                  updatedAt: '2024-11-20T04:59:14.935Z'
   /device/api/v1/chat_message/list:
     post:
       tags:
@@ -8716,15 +8716,15 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - message: hacking
-                      sender: deposit
-                      recipient: Data
-                      groupId: 66ae46743059be03c5575033
-                      id: 66ae46743059be03c557503d
+                    - message: Beauty
+                      sender: plum
+                      recipient: Assistant
+                      groupId: 66ae47acdd20fa03e91558c5
+                      id: 66ae47acdd20fa03e91558cf
                       isDeleted: false
                       isActive: true
-                      createdAt: '2024-10-19T13:28:41.306Z'
-                      updatedAt: '2025-07-15T19:56:59.991Z'
+                      createdAt: '2025-06-05T00:26:49.949Z'
+                      updatedAt: '2024-11-20T04:59:14.935Z'
                   paginator:
                     itemCount: 1
                     offset: 0
@@ -8786,10 +8786,10 @@ paths:
               type: object
               example:
                 data:
-                  - message: hacking
-                    sender: deposit
-                    recipient: Data
-                    groupId: 66ae46743059be03c5575033
+                  - message: Beauty
+                    sender: plum
+                    recipient: Assistant
+                    groupId: 66ae47acdd20fa03e91558c5
       security:
         - bearerAuth: []
       parameters:
@@ -8865,10 +8865,10 @@ paths:
             schema:
               type: object
               example:
-                message: hacking
-                sender: deposit
-                recipient: Data
-                groupId: 66ae46743059be03c5575033
+                message: Beauty
+                sender: plum
+                recipient: Assistant
+                groupId: 66ae47acdd20fa03e91558c5
       security:
         - bearerAuth: []
       parameters:
@@ -8898,15 +8898,15 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  message: hacking
-                  sender: deposit
-                  recipient: Data
-                  groupId: 66ae46743059be03c5575033
-                  id: 66ae46743059be03c557503f
+                  message: Beauty
+                  sender: plum
+                  recipient: Assistant
+                  groupId: 66ae47acdd20fa03e91558c5
+                  id: 66ae47acdd20fa03e91558d1
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-10-19T13:28:41.306Z'
-                  updatedAt: '2025-07-15T19:56:59.991Z'
+                  createdAt: '2025-06-05T00:26:49.949Z'
+                  updatedAt: '2024-11-20T04:59:14.935Z'
   /device/api/v1/chat_message/partial-update/{id}:
     put:
       tags:
@@ -8949,15 +8949,15 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  message: hacking
-                  sender: deposit
-                  recipient: Data
-                  groupId: 66ae46743059be03c5575033
-                  id: 66ae46743059be03c5575040
+                  message: Beauty
+                  sender: plum
+                  recipient: Assistant
+                  groupId: 66ae47acdd20fa03e91558c5
+                  id: 66ae47acdd20fa03e91558d2
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-10-19T13:28:41.306Z'
-                  updatedAt: '2025-07-15T19:56:59.991Z'
+                  createdAt: '2025-06-05T00:26:49.949Z'
+                  updatedAt: '2024-11-20T04:59:14.935Z'
   /device/api/v1/chat_message/softDelete/{id}:
     put:
       tags:
@@ -9146,13 +9146,13 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  position: 319
-                  model: 66ae46743059be03c557504a
-                  id: 66ae46743059be03c5575055
+                  position: 260
+                  model: 66ae47acdd20fa03e91558dc
+                  id: 66ae47acdd20fa03e91558e7
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-07-30T12:32:42.791Z'
-                  updatedAt: '2024-09-14T11:06:14.865Z'
+                  createdAt: '2024-08-27T23:44:36.611Z'
+                  updatedAt: '2024-12-11T11:54:12.705Z'
   /device/api/v1/piece/create:
     post:
       tags:
@@ -9164,8 +9164,8 @@ paths:
             schema:
               type: object
               example:
-                position: 319
-                model: 66ae46743059be03c557504a
+                position: 260
+                model: 66ae47acdd20fa03e91558dc
       security:
         - bearerAuth: []
       parameters:
@@ -9190,13 +9190,13 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  position: 319
-                  model: 66ae46743059be03c557504a
-                  id: 66ae46743059be03c5575053
+                  position: 260
+                  model: 66ae47acdd20fa03e91558dc
+                  id: 66ae47acdd20fa03e91558e5
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-07-30T12:32:42.791Z'
-                  updatedAt: '2024-09-14T11:06:14.865Z'
+                  createdAt: '2024-08-27T23:44:36.611Z'
+                  updatedAt: '2024-12-11T11:54:12.705Z'
   /device/api/v1/piece/list:
     post:
       tags:
@@ -9254,13 +9254,13 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - position: 319
-                      model: 66ae46743059be03c557504a
-                      id: 66ae46743059be03c5575054
+                    - position: 260
+                      model: 66ae47acdd20fa03e91558dc
+                      id: 66ae47acdd20fa03e91558e6
                       isDeleted: false
                       isActive: true
-                      createdAt: '2025-07-30T12:32:42.791Z'
-                      updatedAt: '2024-09-14T11:06:14.865Z'
+                      createdAt: '2024-08-27T23:44:36.611Z'
+                      updatedAt: '2024-12-11T11:54:12.705Z'
                   paginator:
                     itemCount: 1
                     offset: 0
@@ -9322,8 +9322,8 @@ paths:
               type: object
               example:
                 data:
-                  - position: 319
-                    model: 66ae46743059be03c557504a
+                  - position: 260
+                    model: 66ae47acdd20fa03e91558dc
       security:
         - bearerAuth: []
       parameters:
@@ -9399,8 +9399,8 @@ paths:
             schema:
               type: object
               example:
-                position: 319
-                model: 66ae46743059be03c557504a
+                position: 260
+                model: 66ae47acdd20fa03e91558dc
       security:
         - bearerAuth: []
       parameters:
@@ -9430,13 +9430,13 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  position: 319
-                  model: 66ae46743059be03c557504a
-                  id: 66ae46743059be03c5575056
+                  position: 260
+                  model: 66ae47acdd20fa03e91558dc
+                  id: 66ae47acdd20fa03e91558e8
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-07-30T12:32:42.791Z'
-                  updatedAt: '2024-09-14T11:06:14.865Z'
+                  createdAt: '2024-08-27T23:44:36.611Z'
+                  updatedAt: '2024-12-11T11:54:12.705Z'
   /device/api/v1/piece/partial-update/{id}:
     put:
       tags:
@@ -9479,13 +9479,13 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  position: 319
-                  model: 66ae46743059be03c557504a
-                  id: 66ae46743059be03c5575057
+                  position: 260
+                  model: 66ae47acdd20fa03e91558dc
+                  id: 66ae47acdd20fa03e91558e9
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-07-30T12:32:42.791Z'
-                  updatedAt: '2024-09-14T11:06:14.865Z'
+                  createdAt: '2024-08-27T23:44:36.611Z'
+                  updatedAt: '2024-12-11T11:54:12.705Z'
   /device/api/v1/piece/softDelete/{id}:
     put:
       tags:
@@ -9674,11 +9674,11 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  img: panel
-                  eat: alarm
-                  table: feed
-                  name: Noel Wilderman
-                  id: 66ae46743059be03c557506b
+                  img: Horizontal
+                  eat: Creative
+                  table: copying
+                  name: Ms. Fred Kerluke
+                  id: 66ae47acdd20fa03e91558fd
                   isDeleted: false
   /device/api/v1/piecetemplate/create:
     post:
@@ -9691,10 +9691,10 @@ paths:
             schema:
               type: object
               example:
-                img: panel
-                eat: alarm
-                table: feed
-                name: Noel Wilderman
+                img: Horizontal
+                eat: Creative
+                table: copying
+                name: Ms. Fred Kerluke
       security:
         - bearerAuth: []
       parameters:
@@ -9719,11 +9719,11 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  img: panel
-                  eat: alarm
-                  table: feed
-                  name: Noel Wilderman
-                  id: 66ae46743059be03c5575069
+                  img: Horizontal
+                  eat: Creative
+                  table: copying
+                  name: Ms. Fred Kerluke
+                  id: 66ae47acdd20fa03e91558fb
                   isDeleted: false
   /device/api/v1/piecetemplate/list:
     post:
@@ -9782,11 +9782,11 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - img: panel
-                      eat: alarm
-                      table: feed
-                      name: Noel Wilderman
-                      id: 66ae46743059be03c557506a
+                    - img: Horizontal
+                      eat: Creative
+                      table: copying
+                      name: Ms. Fred Kerluke
+                      id: 66ae47acdd20fa03e91558fc
                       isDeleted: false
                   paginator:
                     itemCount: 1
@@ -9849,10 +9849,10 @@ paths:
               type: object
               example:
                 data:
-                  - img: panel
-                    eat: alarm
-                    table: feed
-                    name: Noel Wilderman
+                  - img: Horizontal
+                    eat: Creative
+                    table: copying
+                    name: Ms. Fred Kerluke
       security:
         - bearerAuth: []
       parameters:
@@ -9928,10 +9928,10 @@ paths:
             schema:
               type: object
               example:
-                img: panel
-                eat: alarm
-                table: feed
-                name: Noel Wilderman
+                img: Horizontal
+                eat: Creative
+                table: copying
+                name: Ms. Fred Kerluke
       security:
         - bearerAuth: []
       parameters:
@@ -9961,11 +9961,11 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  img: panel
-                  eat: alarm
-                  table: feed
-                  name: Noel Wilderman
-                  id: 66ae46743059be03c557506c
+                  img: Horizontal
+                  eat: Creative
+                  table: copying
+                  name: Ms. Fred Kerluke
+                  id: 66ae47acdd20fa03e91558fe
                   isDeleted: false
   /device/api/v1/piecetemplate/partial-update/{id}:
     put:
@@ -10009,11 +10009,11 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  img: panel
-                  eat: alarm
-                  table: feed
-                  name: Noel Wilderman
-                  id: 66ae46743059be03c557506d
+                  img: Horizontal
+                  eat: Creative
+                  table: copying
+                  name: Ms. Fred Kerluke
+                  id: 66ae47acdd20fa03e91558ff
                   isDeleted: false
   /device/api/v1/piecetemplate/softDelete/{id}:
     put:
@@ -10203,15 +10203,15 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  slot: 66ae46743059be03c5575077
-                  position: 53
-                  x: 33
-                  'y': Sleek
-                  id: 66ae46743059be03c5575082
+                  slot: 66ae47acdd20fa03e9155909
+                  position: 781
+                  x: 188
+                  'y': Indiana
+                  id: 66ae47acdd20fa03e9155914
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-05-30T09:36:59.410Z'
-                  updatedAt: '2025-03-29T19:34:35.540Z'
+                  createdAt: '2024-11-08T03:54:35.881Z'
+                  updatedAt: '2025-02-02T17:15:00.835Z'
   /device/api/v1/slot/create:
     post:
       tags:
@@ -10223,10 +10223,10 @@ paths:
             schema:
               type: object
               example:
-                slot: 66ae46743059be03c5575077
-                position: 53
-                x: 33
-                'y': Sleek
+                slot: 66ae47acdd20fa03e9155909
+                position: 781
+                x: 188
+                'y': Indiana
       security:
         - bearerAuth: []
       parameters:
@@ -10251,15 +10251,15 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  slot: 66ae46743059be03c5575077
-                  position: 53
-                  x: 33
-                  'y': Sleek
-                  id: 66ae46743059be03c5575080
+                  slot: 66ae47acdd20fa03e9155909
+                  position: 781
+                  x: 188
+                  'y': Indiana
+                  id: 66ae47acdd20fa03e9155912
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-05-30T09:36:59.410Z'
-                  updatedAt: '2025-03-29T19:34:35.540Z'
+                  createdAt: '2024-11-08T03:54:35.881Z'
+                  updatedAt: '2025-02-02T17:15:00.835Z'
   /device/api/v1/slot/list:
     post:
       tags:
@@ -10317,15 +10317,15 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - slot: 66ae46743059be03c5575077
-                      position: 53
-                      x: 33
-                      'y': Sleek
-                      id: 66ae46743059be03c5575081
+                    - slot: 66ae47acdd20fa03e9155909
+                      position: 781
+                      x: 188
+                      'y': Indiana
+                      id: 66ae47acdd20fa03e9155913
                       isDeleted: false
                       isActive: true
-                      createdAt: '2025-05-30T09:36:59.410Z'
-                      updatedAt: '2025-03-29T19:34:35.540Z'
+                      createdAt: '2024-11-08T03:54:35.881Z'
+                      updatedAt: '2025-02-02T17:15:00.835Z'
                   paginator:
                     itemCount: 1
                     offset: 0
@@ -10387,10 +10387,10 @@ paths:
               type: object
               example:
                 data:
-                  - slot: 66ae46743059be03c5575077
-                    position: 53
-                    x: 33
-                    'y': Sleek
+                  - slot: 66ae47acdd20fa03e9155909
+                    position: 781
+                    x: 188
+                    'y': Indiana
       security:
         - bearerAuth: []
       parameters:
@@ -10466,10 +10466,10 @@ paths:
             schema:
               type: object
               example:
-                slot: 66ae46743059be03c5575077
-                position: 53
-                x: 33
-                'y': Sleek
+                slot: 66ae47acdd20fa03e9155909
+                position: 781
+                x: 188
+                'y': Indiana
       security:
         - bearerAuth: []
       parameters:
@@ -10499,15 +10499,15 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  slot: 66ae46743059be03c5575077
-                  position: 53
-                  x: 33
-                  'y': Sleek
-                  id: 66ae46743059be03c5575083
+                  slot: 66ae47acdd20fa03e9155909
+                  position: 781
+                  x: 188
+                  'y': Indiana
+                  id: 66ae47acdd20fa03e9155915
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-05-30T09:36:59.410Z'
-                  updatedAt: '2025-03-29T19:34:35.540Z'
+                  createdAt: '2024-11-08T03:54:35.881Z'
+                  updatedAt: '2025-02-02T17:15:00.835Z'
   /device/api/v1/slot/partial-update/{id}:
     put:
       tags:
@@ -10550,15 +10550,15 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  slot: 66ae46743059be03c5575077
-                  position: 53
-                  x: 33
-                  'y': Sleek
-                  id: 66ae46743059be03c5575084
+                  slot: 66ae47acdd20fa03e9155909
+                  position: 781
+                  x: 188
+                  'y': Indiana
+                  id: 66ae47acdd20fa03e9155916
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-05-30T09:36:59.410Z'
-                  updatedAt: '2025-03-29T19:34:35.540Z'
+                  createdAt: '2024-11-08T03:54:35.881Z'
+                  updatedAt: '2025-02-02T17:15:00.835Z'
   /device/api/v1/slot/softDelete/{id}:
     put:
       tags:
@@ -10747,14 +10747,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  coordnate: 211
-                  x: 868
-                  'y': 17
-                  id: 66ae46743059be03c5575098
+                  coordnate: 505
+                  x: 522
+                  'y': 413
+                  id: 66ae47acdd20fa03e915592a
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-11-14T16:35:33.647Z'
-                  updatedAt: '2024-08-23T15:14:59.417Z'
+                  createdAt: '2025-05-29T12:01:23.726Z'
+                  updatedAt: '2025-01-23T19:30:05.106Z'
   /device/api/v1/table/create:
     post:
       tags:
@@ -10766,9 +10766,9 @@ paths:
             schema:
               type: object
               example:
-                coordnate: 211
-                x: 868
-                'y': 17
+                coordnate: 505
+                x: 522
+                'y': 413
       security:
         - bearerAuth: []
       parameters:
@@ -10793,14 +10793,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  coordnate: 211
-                  x: 868
-                  'y': 17
-                  id: 66ae46743059be03c5575096
+                  coordnate: 505
+                  x: 522
+                  'y': 413
+                  id: 66ae47acdd20fa03e9155928
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-11-14T16:35:33.647Z'
-                  updatedAt: '2024-08-23T15:14:59.417Z'
+                  createdAt: '2025-05-29T12:01:23.726Z'
+                  updatedAt: '2025-01-23T19:30:05.106Z'
   /device/api/v1/table/list:
     post:
       tags:
@@ -10858,14 +10858,14 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - coordnate: 211
-                      x: 868
-                      'y': 17
-                      id: 66ae46743059be03c5575097
+                    - coordnate: 505
+                      x: 522
+                      'y': 413
+                      id: 66ae47acdd20fa03e9155929
                       isDeleted: false
                       isActive: true
-                      createdAt: '2024-11-14T16:35:33.647Z'
-                      updatedAt: '2024-08-23T15:14:59.417Z'
+                      createdAt: '2025-05-29T12:01:23.726Z'
+                      updatedAt: '2025-01-23T19:30:05.106Z'
                   paginator:
                     itemCount: 1
                     offset: 0
@@ -10927,9 +10927,9 @@ paths:
               type: object
               example:
                 data:
-                  - coordnate: 211
-                    x: 868
-                    'y': 17
+                  - coordnate: 505
+                    x: 522
+                    'y': 413
       security:
         - bearerAuth: []
       parameters:
@@ -11005,9 +11005,9 @@ paths:
             schema:
               type: object
               example:
-                coordnate: 211
-                x: 868
-                'y': 17
+                coordnate: 505
+                x: 522
+                'y': 413
       security:
         - bearerAuth: []
       parameters:
@@ -11037,14 +11037,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  coordnate: 211
-                  x: 868
-                  'y': 17
-                  id: 66ae46743059be03c5575099
+                  coordnate: 505
+                  x: 522
+                  'y': 413
+                  id: 66ae47acdd20fa03e915592b
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-11-14T16:35:33.647Z'
-                  updatedAt: '2024-08-23T15:14:59.417Z'
+                  createdAt: '2025-05-29T12:01:23.726Z'
+                  updatedAt: '2025-01-23T19:30:05.106Z'
   /device/api/v1/table/partial-update/{id}:
     put:
       tags:
@@ -11087,14 +11087,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  coordnate: 211
-                  x: 868
-                  'y': 17
-                  id: 66ae46743059be03c557509a
+                  coordnate: 505
+                  x: 522
+                  'y': 413
+                  id: 66ae47acdd20fa03e915592c
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-11-14T16:35:33.647Z'
-                  updatedAt: '2024-08-23T15:14:59.417Z'
+                  createdAt: '2025-05-29T12:01:23.726Z'
+                  updatedAt: '2025-01-23T19:30:05.106Z'
   /device/api/v1/table/softDelete/{id}:
     put:
       tags:
@@ -11283,17 +11283,17 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  type: 253
-                  size: 174
-                  time: 854
-                  jogada: 66ae46743059be03c55750a4
-                  chat: 66ae46743059be03c55750a5
-                  timepast: 827
-                  id: 66ae46743059be03c55750b0
+                  type: 581
+                  size: 320
+                  time: 69
+                  jogada: 66ae47acdd20fa03e9155936
+                  chat: 66ae47acdd20fa03e9155937
+                  timepast: 228
+                  id: 66ae47acdd20fa03e9155942
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-01-17T22:34:27.616Z'
-                  updatedAt: '2025-06-07T18:15:18.271Z'
+                  createdAt: '2024-09-30T03:01:00.118Z'
+                  updatedAt: '2024-09-20T11:01:17.930Z'
   /device/api/v1/game/create:
     post:
       tags:
@@ -11305,12 +11305,12 @@ paths:
             schema:
               type: object
               example:
-                type: 253
-                size: 174
-                time: 854
-                jogada: 66ae46743059be03c55750a4
-                chat: 66ae46743059be03c55750a5
-                timepast: 827
+                type: 581
+                size: 320
+                time: 69
+                jogada: 66ae47acdd20fa03e9155936
+                chat: 66ae47acdd20fa03e9155937
+                timepast: 228
       security:
         - bearerAuth: []
       parameters:
@@ -11335,17 +11335,17 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  type: 253
-                  size: 174
-                  time: 854
-                  jogada: 66ae46743059be03c55750a4
-                  chat: 66ae46743059be03c55750a5
-                  timepast: 827
-                  id: 66ae46743059be03c55750ae
+                  type: 581
+                  size: 320
+                  time: 69
+                  jogada: 66ae47acdd20fa03e9155936
+                  chat: 66ae47acdd20fa03e9155937
+                  timepast: 228
+                  id: 66ae47acdd20fa03e9155940
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-01-17T22:34:27.616Z'
-                  updatedAt: '2025-06-07T18:15:18.271Z'
+                  createdAt: '2024-09-30T03:01:00.118Z'
+                  updatedAt: '2024-09-20T11:01:17.930Z'
   /device/api/v1/game/list:
     post:
       tags:
@@ -11403,17 +11403,17 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - type: 253
-                      size: 174
-                      time: 854
-                      jogada: 66ae46743059be03c55750a4
-                      chat: 66ae46743059be03c55750a5
-                      timepast: 827
-                      id: 66ae46743059be03c55750af
+                    - type: 581
+                      size: 320
+                      time: 69
+                      jogada: 66ae47acdd20fa03e9155936
+                      chat: 66ae47acdd20fa03e9155937
+                      timepast: 228
+                      id: 66ae47acdd20fa03e9155941
                       isDeleted: false
                       isActive: true
-                      createdAt: '2025-01-17T22:34:27.616Z'
-                      updatedAt: '2025-06-07T18:15:18.271Z'
+                      createdAt: '2024-09-30T03:01:00.118Z'
+                      updatedAt: '2024-09-20T11:01:17.930Z'
                   paginator:
                     itemCount: 1
                     offset: 0
@@ -11475,12 +11475,12 @@ paths:
               type: object
               example:
                 data:
-                  - type: 253
-                    size: 174
-                    time: 854
-                    jogada: 66ae46743059be03c55750a4
-                    chat: 66ae46743059be03c55750a5
-                    timepast: 827
+                  - type: 581
+                    size: 320
+                    time: 69
+                    jogada: 66ae47acdd20fa03e9155936
+                    chat: 66ae47acdd20fa03e9155937
+                    timepast: 228
       security:
         - bearerAuth: []
       parameters:
@@ -11556,12 +11556,12 @@ paths:
             schema:
               type: object
               example:
-                type: 253
-                size: 174
-                time: 854
-                jogada: 66ae46743059be03c55750a4
-                chat: 66ae46743059be03c55750a5
-                timepast: 827
+                type: 581
+                size: 320
+                time: 69
+                jogada: 66ae47acdd20fa03e9155936
+                chat: 66ae47acdd20fa03e9155937
+                timepast: 228
       security:
         - bearerAuth: []
       parameters:
@@ -11591,17 +11591,17 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  type: 253
-                  size: 174
-                  time: 854
-                  jogada: 66ae46743059be03c55750a4
-                  chat: 66ae46743059be03c55750a5
-                  timepast: 827
-                  id: 66ae46743059be03c55750b1
+                  type: 581
+                  size: 320
+                  time: 69
+                  jogada: 66ae47acdd20fa03e9155936
+                  chat: 66ae47acdd20fa03e9155937
+                  timepast: 228
+                  id: 66ae47acdd20fa03e9155943
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-01-17T22:34:27.616Z'
-                  updatedAt: '2025-06-07T18:15:18.271Z'
+                  createdAt: '2024-09-30T03:01:00.118Z'
+                  updatedAt: '2024-09-20T11:01:17.930Z'
   /device/api/v1/game/partial-update/{id}:
     put:
       tags:
@@ -11644,17 +11644,17 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  type: 253
-                  size: 174
-                  time: 854
-                  jogada: 66ae46743059be03c55750a4
-                  chat: 66ae46743059be03c55750a5
-                  timepast: 827
-                  id: 66ae46743059be03c55750b2
+                  type: 581
+                  size: 320
+                  time: 69
+                  jogada: 66ae47acdd20fa03e9155936
+                  chat: 66ae47acdd20fa03e9155937
+                  timepast: 228
+                  id: 66ae47acdd20fa03e9155944
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-01-17T22:34:27.616Z'
-                  updatedAt: '2025-06-07T18:15:18.271Z'
+                  createdAt: '2024-09-30T03:01:00.118Z'
+                  updatedAt: '2024-09-20T11:01:17.930Z'
   /device/api/v1/game/softDelete/{id}:
     put:
       tags:
@@ -11843,16 +11843,16 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  username: Lenny_Gulgowski
-                  email: Rupert_Kub3@gmail.com
-                  name: Essie Streich
-                  mobileNo: (536) 836-9665
+                  username: Ellis73
+                  email: Cecelia68@gmail.com
+                  name: Mrs. Edna Kuhic
+                  mobileNo: (682) 423-3514
                   userType: 1
-                  id: 66ae46743059be03c55750c9
+                  id: 66ae47acdd20fa03e915595b
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-05-31T16:41:34.085Z'
-                  updatedAt: '2024-10-03T04:56:21.436Z'
+                  createdAt: '2025-05-09T19:25:20.858Z'
+                  updatedAt: '2025-06-14T16:42:01.222Z'
   /device/api/v1/user/me:
     get:
       tags:
@@ -11882,16 +11882,16 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  username: Lenny_Gulgowski
-                  email: Rupert_Kub3@gmail.com
-                  name: Essie Streich
-                  mobileNo: (536) 836-9665
+                  username: Ellis73
+                  email: Cecelia68@gmail.com
+                  name: Mrs. Edna Kuhic
+                  mobileNo: (682) 423-3514
                   userType: 1
-                  id: 66ae46743059be03c55750cf
+                  id: 66ae47acdd20fa03e9155961
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-05-31T16:41:34.085Z'
-                  updatedAt: '2024-10-03T04:56:21.436Z'
+                  createdAt: '2025-05-09T19:25:20.858Z'
+                  updatedAt: '2025-06-14T16:42:01.222Z'
   /device/api/v1/user/create:
     post:
       tags:
@@ -11903,11 +11903,11 @@ paths:
             schema:
               type: object
               example:
-                username: Lenny_Gulgowski
-                password: igzeuurbaaZ0ZgL
-                email: Rupert_Kub3@gmail.com
-                name: Essie Streich
-                mobileNo: (536) 836-9665
+                username: Ellis73
+                password: b1xcUeMLzDGhvyQ
+                email: Cecelia68@gmail.com
+                name: Mrs. Edna Kuhic
+                mobileNo: (682) 423-3514
                 userType: 1
       security:
         - bearerAuth: []
@@ -11933,16 +11933,16 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  username: Lenny_Gulgowski
-                  email: Rupert_Kub3@gmail.com
-                  name: Essie Streich
-                  mobileNo: (536) 836-9665
+                  username: Ellis73
+                  email: Cecelia68@gmail.com
+                  name: Mrs. Edna Kuhic
+                  mobileNo: (682) 423-3514
                   userType: 1
-                  id: 66ae46743059be03c55750c7
+                  id: 66ae47acdd20fa03e9155959
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-05-31T16:41:34.085Z'
-                  updatedAt: '2024-10-03T04:56:21.436Z'
+                  createdAt: '2025-05-09T19:25:20.858Z'
+                  updatedAt: '2025-06-14T16:42:01.222Z'
   /device/api/v1/user/list:
     post:
       tags:
@@ -12000,16 +12000,16 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - username: Lenny_Gulgowski
-                      email: Rupert_Kub3@gmail.com
-                      name: Essie Streich
-                      mobileNo: (536) 836-9665
+                    - username: Ellis73
+                      email: Cecelia68@gmail.com
+                      name: Mrs. Edna Kuhic
+                      mobileNo: (682) 423-3514
                       userType: 1
-                      id: 66ae46743059be03c55750c8
+                      id: 66ae47acdd20fa03e915595a
                       isDeleted: false
                       isActive: true
-                      createdAt: '2025-05-31T16:41:34.085Z'
-                      updatedAt: '2024-10-03T04:56:21.436Z'
+                      createdAt: '2025-05-09T19:25:20.858Z'
+                      updatedAt: '2025-06-14T16:42:01.222Z'
                   paginator:
                     itemCount: 1
                     offset: 0
@@ -12071,11 +12071,11 @@ paths:
               type: object
               example:
                 data:
-                  - username: Lenny_Gulgowski
-                    password: igzeuurbaaZ0ZgL
-                    email: Rupert_Kub3@gmail.com
-                    name: Essie Streich
-                    mobileNo: (536) 836-9665
+                  - username: Ellis73
+                    password: b1xcUeMLzDGhvyQ
+                    email: Cecelia68@gmail.com
+                    name: Mrs. Edna Kuhic
+                    mobileNo: (682) 423-3514
                     userType: 1
       security:
         - bearerAuth: []
@@ -12113,11 +12113,11 @@ paths:
             schema:
               type: object
               example:
-                username: Lenny_Gulgowski
-                password: igzeuurbaaZ0ZgL
-                email: Rupert_Kub3@gmail.com
-                name: Essie Streich
-                mobileNo: (536) 836-9665
+                username: Ellis73
+                password: b1xcUeMLzDGhvyQ
+                email: Cecelia68@gmail.com
+                name: Mrs. Edna Kuhic
+                mobileNo: (682) 423-3514
                 userType: 1
       security:
         - bearerAuth: []
@@ -12148,16 +12148,16 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  username: Lenny_Gulgowski
-                  email: Rupert_Kub3@gmail.com
-                  name: Essie Streich
-                  mobileNo: (536) 836-9665
+                  username: Ellis73
+                  email: Cecelia68@gmail.com
+                  name: Mrs. Edna Kuhic
+                  mobileNo: (682) 423-3514
                   userType: 1
-                  id: 66ae46743059be03c55750ca
+                  id: 66ae47acdd20fa03e915595c
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-05-31T16:41:34.085Z'
-                  updatedAt: '2024-10-03T04:56:21.436Z'
+                  createdAt: '2025-05-09T19:25:20.858Z'
+                  updatedAt: '2025-06-14T16:42:01.222Z'
   /device/api/v1/user/partial-update/{id}:
     put:
       tags:
@@ -12200,16 +12200,16 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  username: Lenny_Gulgowski
-                  email: Rupert_Kub3@gmail.com
-                  name: Essie Streich
-                  mobileNo: (536) 836-9665
+                  username: Ellis73
+                  email: Cecelia68@gmail.com
+                  name: Mrs. Edna Kuhic
+                  mobileNo: (682) 423-3514
                   userType: 1
-                  id: 66ae46743059be03c55750cb
+                  id: 66ae47acdd20fa03e915595d
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-05-31T16:41:34.085Z'
-                  updatedAt: '2024-10-03T04:56:21.436Z'
+                  createdAt: '2025-05-09T19:25:20.858Z'
+                  updatedAt: '2025-06-14T16:42:01.222Z'
   /device/api/v1/user/updateBulk:
     put:
       tags:
@@ -12261,11 +12261,11 @@ paths:
             schema:
               type: object
               example:
-                username: Lenny_Gulgowski
-                password: igzeuurbaaZ0ZgL
-                email: Rupert_Kub3@gmail.com
-                name: Essie Streich
-                mobileNo: (536) 836-9665
+                username: Ellis73
+                password: b1xcUeMLzDGhvyQ
+                email: Cecelia68@gmail.com
+                name: Mrs. Edna Kuhic
+                mobileNo: (682) 423-3514
                 userType: 1
       security:
         - bearerAuth: []
@@ -12291,16 +12291,16 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  username: Lenny_Gulgowski
-                  email: Rupert_Kub3@gmail.com
-                  name: Essie Streich
-                  mobileNo: (536) 836-9665
+                  username: Ellis73
+                  email: Cecelia68@gmail.com
+                  name: Mrs. Edna Kuhic
+                  mobileNo: (682) 423-3514
                   userType: 1
-                  id: 66ae46743059be03c55750ce
+                  id: 66ae47acdd20fa03e9155960
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-05-31T16:41:34.085Z'
-                  updatedAt: '2024-10-03T04:56:21.436Z'
+                  createdAt: '2025-05-09T19:25:20.858Z'
+                  updatedAt: '2025-06-14T16:42:01.222Z'
   /device/auth/login:
     post:
       tags:
@@ -12338,18 +12338,18 @@ paths:
                 status: SUCCESS
                 message: Login Successful
                 data:
-                  username: Lenny_Gulgowski
-                  email: Rupert_Kub3@gmail.com
-                  name: Essie Streich
-                  mobileNo: (536) 836-9665
-                  id: 66ae46743059be03c55750d0
+                  username: Ellis73
+                  email: Cecelia68@gmail.com
+                  name: Mrs. Edna Kuhic
+                  mobileNo: (682) 423-3514
+                  id: 66ae47acdd20fa03e9155962
                   loginRetryLimit: 0
                   token: >-
                     eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMWRlZDVjMGFjMjAxMmFjMDI4ODkxZiIsInVzZXJuYW1lIjoiYWRtaW4iLCJpYXQiOjE2MjkzNTEyNzAsImV4cCI6MTYyOTk1MTI3MH0.BJ-WKjNYeFDQ4pn8kfli5gwn6GLz_c3voFht20Agj9k
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-01-17T22:44:29.989Z'
-                  updatedAt: '2025-02-09T15:58:07.840Z'
+                  createdAt: '2025-05-12T05:22:48.259Z'
+                  updatedAt: '2025-03-26T11:11:07.283Z'
   /device/auth/register:
     post:
       tags:
@@ -12361,11 +12361,11 @@ paths:
             schema:
               type: object
               example:
-                username: Lenny_Gulgowski
-                password: igzeuurbaaZ0ZgL
-                email: Rupert_Kub3@gmail.com
-                name: Essie Streich
-                mobileNo: (536) 836-9665
+                username: Ellis73
+                password: b1xcUeMLzDGhvyQ
+                email: Cecelia68@gmail.com
+                name: Mrs. Edna Kuhic
+                mobileNo: (682) 423-3514
       security:
         - undefinedAuth: []
       parameters:
@@ -12390,16 +12390,16 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  username: Lenny_Gulgowski
-                  email: Rupert_Kub3@gmail.com
-                  name: Essie Streich
-                  mobileNo: (536) 836-9665
-                  id: 66ae46743059be03c55750d0
+                  username: Ellis73
+                  email: Cecelia68@gmail.com
+                  name: Mrs. Edna Kuhic
+                  mobileNo: (682) 423-3514
+                  id: 66ae47acdd20fa03e9155962
                   loginRetryLimit: 0
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-01-17T22:44:29.989Z'
-                  updatedAt: '2025-02-09T15:58:07.840Z'
+                  createdAt: '2025-05-12T05:22:48.259Z'
+                  updatedAt: '2025-03-26T11:11:07.283Z'
   /device/auth/forgot-password:
     post:
       tags:
@@ -12584,10 +12584,10 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  pieceId: 66ae46743059be03c5575005
-                  targetPosition: 66ae46743059be03c5575006
-                  date: '2025-04-18T09:16:35.489Z'
-                  id: 66ae46743059be03c5575018
+                  pieceId: 66ae47acdd20fa03e9155897
+                  targetPosition: 66ae47acdd20fa03e9155898
+                  date: '2024-11-08T13:51:18.042Z'
+                  id: 66ae47acdd20fa03e91558aa
                   isDeleted: false
   /client/api/v1/move/create:
     post:
@@ -12600,9 +12600,9 @@ paths:
             schema:
               type: object
               example:
-                pieceId: 66ae46743059be03c5575005
-                targetPosition: 66ae46743059be03c5575006
-                date: '2025-04-18T09:16:35.489Z'
+                pieceId: 66ae47acdd20fa03e9155897
+                targetPosition: 66ae47acdd20fa03e9155898
+                date: '2024-11-08T13:51:18.042Z'
       security:
         - bearerAuth: []
       parameters:
@@ -12627,10 +12627,10 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  pieceId: 66ae46743059be03c5575005
-                  targetPosition: 66ae46743059be03c5575006
-                  date: '2025-04-18T09:16:35.489Z'
-                  id: 66ae46743059be03c5575016
+                  pieceId: 66ae47acdd20fa03e9155897
+                  targetPosition: 66ae47acdd20fa03e9155898
+                  date: '2024-11-08T13:51:18.042Z'
+                  id: 66ae47acdd20fa03e91558a8
                   isDeleted: false
   /client/api/v1/move/list:
     post:
@@ -12689,10 +12689,10 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - pieceId: 66ae46743059be03c5575005
-                      targetPosition: 66ae46743059be03c5575006
-                      date: '2025-04-18T09:16:35.489Z'
-                      id: 66ae46743059be03c5575017
+                    - pieceId: 66ae47acdd20fa03e9155897
+                      targetPosition: 66ae47acdd20fa03e9155898
+                      date: '2024-11-08T13:51:18.042Z'
+                      id: 66ae47acdd20fa03e91558a9
                       isDeleted: false
                   paginator:
                     itemCount: 1
@@ -12755,9 +12755,9 @@ paths:
               type: object
               example:
                 data:
-                  - pieceId: 66ae46743059be03c5575005
-                    targetPosition: 66ae46743059be03c5575006
-                    date: '2025-04-18T09:16:35.489Z'
+                  - pieceId: 66ae47acdd20fa03e9155897
+                    targetPosition: 66ae47acdd20fa03e9155898
+                    date: '2024-11-08T13:51:18.042Z'
       security:
         - bearerAuth: []
       parameters:
@@ -12833,9 +12833,9 @@ paths:
             schema:
               type: object
               example:
-                pieceId: 66ae46743059be03c5575005
-                targetPosition: 66ae46743059be03c5575006
-                date: '2025-04-18T09:16:35.489Z'
+                pieceId: 66ae47acdd20fa03e9155897
+                targetPosition: 66ae47acdd20fa03e9155898
+                date: '2024-11-08T13:51:18.042Z'
       security:
         - bearerAuth: []
       parameters:
@@ -12865,10 +12865,10 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  pieceId: 66ae46743059be03c5575005
-                  targetPosition: 66ae46743059be03c5575006
-                  date: '2025-04-18T09:16:35.489Z'
-                  id: 66ae46743059be03c5575019
+                  pieceId: 66ae47acdd20fa03e9155897
+                  targetPosition: 66ae47acdd20fa03e9155898
+                  date: '2024-11-08T13:51:18.042Z'
+                  id: 66ae47acdd20fa03e91558ab
                   isDeleted: false
   /client/api/v1/move/partial-update/{id}:
     put:
@@ -12912,10 +12912,10 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  pieceId: 66ae46743059be03c5575005
-                  targetPosition: 66ae46743059be03c5575006
-                  date: '2025-04-18T09:16:35.489Z'
-                  id: 66ae46743059be03c557501a
+                  pieceId: 66ae47acdd20fa03e9155897
+                  targetPosition: 66ae47acdd20fa03e9155898
+                  date: '2024-11-08T13:51:18.042Z'
+                  id: 66ae47acdd20fa03e91558ac
                   isDeleted: false
   /client/api/v1/move/softDelete/{id}:
     put:
@@ -13154,14 +13154,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  name: Laverne Fisher
-                  code: Functionality
-                  admin: Buckinghamshire
-                  id: 66ae46743059be03c557502e
+                  name: Ernest Blick
+                  code: monitor
+                  admin: Regional
+                  id: 66ae47acdd20fa03e91558c0
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-06-19T04:33:25.416Z'
-                  updatedAt: '2024-12-23T01:39:10.288Z'
+                  createdAt: '2025-01-17T09:26:39.119Z'
+                  updatedAt: '2025-01-25T14:18:00.215Z'
   /client/api/v1/chat_group/create:
     post:
       tags:
@@ -13173,9 +13173,9 @@ paths:
             schema:
               type: object
               example:
-                name: Laverne Fisher
-                code: Functionality
-                admin: Buckinghamshire
+                name: Ernest Blick
+                code: monitor
+                admin: Regional
       security:
         - bearerAuth: []
       parameters:
@@ -13200,14 +13200,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  name: Laverne Fisher
-                  code: Functionality
-                  admin: Buckinghamshire
-                  id: 66ae46743059be03c557502c
+                  name: Ernest Blick
+                  code: monitor
+                  admin: Regional
+                  id: 66ae47acdd20fa03e91558be
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-06-19T04:33:25.416Z'
-                  updatedAt: '2024-12-23T01:39:10.288Z'
+                  createdAt: '2025-01-17T09:26:39.119Z'
+                  updatedAt: '2025-01-25T14:18:00.215Z'
   /client/api/v1/chat_group/list:
     post:
       tags:
@@ -13265,14 +13265,14 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - name: Laverne Fisher
-                      code: Functionality
-                      admin: Buckinghamshire
-                      id: 66ae46743059be03c557502d
+                    - name: Ernest Blick
+                      code: monitor
+                      admin: Regional
+                      id: 66ae47acdd20fa03e91558bf
                       isDeleted: false
                       isActive: true
-                      createdAt: '2025-06-19T04:33:25.416Z'
-                      updatedAt: '2024-12-23T01:39:10.288Z'
+                      createdAt: '2025-01-17T09:26:39.119Z'
+                      updatedAt: '2025-01-25T14:18:00.215Z'
                   paginator:
                     itemCount: 1
                     offset: 0
@@ -13334,9 +13334,9 @@ paths:
               type: object
               example:
                 data:
-                  - name: Laverne Fisher
-                    code: Functionality
-                    admin: Buckinghamshire
+                  - name: Ernest Blick
+                    code: monitor
+                    admin: Regional
       security:
         - bearerAuth: []
       parameters:
@@ -13412,9 +13412,9 @@ paths:
             schema:
               type: object
               example:
-                name: Laverne Fisher
-                code: Functionality
-                admin: Buckinghamshire
+                name: Ernest Blick
+                code: monitor
+                admin: Regional
       security:
         - bearerAuth: []
       parameters:
@@ -13444,14 +13444,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  name: Laverne Fisher
-                  code: Functionality
-                  admin: Buckinghamshire
-                  id: 66ae46743059be03c557502f
+                  name: Ernest Blick
+                  code: monitor
+                  admin: Regional
+                  id: 66ae47acdd20fa03e91558c1
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-06-19T04:33:25.416Z'
-                  updatedAt: '2024-12-23T01:39:10.288Z'
+                  createdAt: '2025-01-17T09:26:39.119Z'
+                  updatedAt: '2025-01-25T14:18:00.215Z'
   /client/api/v1/chat_group/partial-update/{id}:
     put:
       tags:
@@ -13494,14 +13494,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  name: Laverne Fisher
-                  code: Functionality
-                  admin: Buckinghamshire
-                  id: 66ae46743059be03c5575030
+                  name: Ernest Blick
+                  code: monitor
+                  admin: Regional
+                  id: 66ae47acdd20fa03e91558c2
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-06-19T04:33:25.416Z'
-                  updatedAt: '2024-12-23T01:39:10.288Z'
+                  createdAt: '2025-01-17T09:26:39.119Z'
+                  updatedAt: '2025-01-25T14:18:00.215Z'
   /client/api/v1/chat_group/softDelete/{id}:
     put:
       tags:
@@ -13690,15 +13690,15 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  message: hacking
-                  sender: deposit
-                  recipient: Data
-                  groupId: 66ae46743059be03c5575033
-                  id: 66ae46743059be03c5575045
+                  message: Beauty
+                  sender: plum
+                  recipient: Assistant
+                  groupId: 66ae47acdd20fa03e91558c5
+                  id: 66ae47acdd20fa03e91558d7
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-10-27T19:43:55.125Z'
-                  updatedAt: '2025-05-01T07:22:07.276Z'
+                  createdAt: '2025-07-25T04:29:53.672Z'
+                  updatedAt: '2025-03-16T00:50:39.866Z'
   /client/api/v1/chat_message/create:
     post:
       tags:
@@ -13710,10 +13710,10 @@ paths:
             schema:
               type: object
               example:
-                message: hacking
-                sender: deposit
-                recipient: Data
-                groupId: 66ae46743059be03c5575033
+                message: Beauty
+                sender: plum
+                recipient: Assistant
+                groupId: 66ae47acdd20fa03e91558c5
       security:
         - bearerAuth: []
       parameters:
@@ -13738,15 +13738,15 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  message: hacking
-                  sender: deposit
-                  recipient: Data
-                  groupId: 66ae46743059be03c5575033
-                  id: 66ae46743059be03c5575043
+                  message: Beauty
+                  sender: plum
+                  recipient: Assistant
+                  groupId: 66ae47acdd20fa03e91558c5
+                  id: 66ae47acdd20fa03e91558d5
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-10-27T19:43:55.125Z'
-                  updatedAt: '2025-05-01T07:22:07.276Z'
+                  createdAt: '2025-07-25T04:29:53.672Z'
+                  updatedAt: '2025-03-16T00:50:39.866Z'
   /client/api/v1/chat_message/list:
     post:
       tags:
@@ -13804,15 +13804,15 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - message: hacking
-                      sender: deposit
-                      recipient: Data
-                      groupId: 66ae46743059be03c5575033
-                      id: 66ae46743059be03c5575044
+                    - message: Beauty
+                      sender: plum
+                      recipient: Assistant
+                      groupId: 66ae47acdd20fa03e91558c5
+                      id: 66ae47acdd20fa03e91558d6
                       isDeleted: false
                       isActive: true
-                      createdAt: '2024-10-27T19:43:55.125Z'
-                      updatedAt: '2025-05-01T07:22:07.276Z'
+                      createdAt: '2025-07-25T04:29:53.672Z'
+                      updatedAt: '2025-03-16T00:50:39.866Z'
                   paginator:
                     itemCount: 1
                     offset: 0
@@ -13874,10 +13874,10 @@ paths:
               type: object
               example:
                 data:
-                  - message: hacking
-                    sender: deposit
-                    recipient: Data
-                    groupId: 66ae46743059be03c5575033
+                  - message: Beauty
+                    sender: plum
+                    recipient: Assistant
+                    groupId: 66ae47acdd20fa03e91558c5
       security:
         - bearerAuth: []
       parameters:
@@ -13953,10 +13953,10 @@ paths:
             schema:
               type: object
               example:
-                message: hacking
-                sender: deposit
-                recipient: Data
-                groupId: 66ae46743059be03c5575033
+                message: Beauty
+                sender: plum
+                recipient: Assistant
+                groupId: 66ae47acdd20fa03e91558c5
       security:
         - bearerAuth: []
       parameters:
@@ -13986,15 +13986,15 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  message: hacking
-                  sender: deposit
-                  recipient: Data
-                  groupId: 66ae46743059be03c5575033
-                  id: 66ae46743059be03c5575046
+                  message: Beauty
+                  sender: plum
+                  recipient: Assistant
+                  groupId: 66ae47acdd20fa03e91558c5
+                  id: 66ae47acdd20fa03e91558d8
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-10-27T19:43:55.125Z'
-                  updatedAt: '2025-05-01T07:22:07.276Z'
+                  createdAt: '2025-07-25T04:29:53.672Z'
+                  updatedAt: '2025-03-16T00:50:39.866Z'
   /client/api/v1/chat_message/partial-update/{id}:
     put:
       tags:
@@ -14037,15 +14037,15 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  message: hacking
-                  sender: deposit
-                  recipient: Data
-                  groupId: 66ae46743059be03c5575033
-                  id: 66ae46743059be03c5575047
+                  message: Beauty
+                  sender: plum
+                  recipient: Assistant
+                  groupId: 66ae47acdd20fa03e91558c5
+                  id: 66ae47acdd20fa03e91558d9
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-10-27T19:43:55.125Z'
-                  updatedAt: '2025-05-01T07:22:07.276Z'
+                  createdAt: '2025-07-25T04:29:53.672Z'
+                  updatedAt: '2025-03-16T00:50:39.866Z'
   /client/api/v1/chat_message/softDelete/{id}:
     put:
       tags:
@@ -14234,13 +14234,13 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  position: 319
-                  model: 66ae46743059be03c557504a
-                  id: 66ae46743059be03c557505c
+                  position: 260
+                  model: 66ae47acdd20fa03e91558dc
+                  id: 66ae47acdd20fa03e91558ee
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-01-19T01:17:30.463Z'
-                  updatedAt: '2025-06-29T06:53:25.051Z'
+                  createdAt: '2025-04-29T06:46:13.583Z'
+                  updatedAt: '2024-09-27T02:14:06.526Z'
   /client/api/v1/piece/create:
     post:
       tags:
@@ -14252,8 +14252,8 @@ paths:
             schema:
               type: object
               example:
-                position: 319
-                model: 66ae46743059be03c557504a
+                position: 260
+                model: 66ae47acdd20fa03e91558dc
       security:
         - bearerAuth: []
       parameters:
@@ -14278,13 +14278,13 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  position: 319
-                  model: 66ae46743059be03c557504a
-                  id: 66ae46743059be03c557505a
+                  position: 260
+                  model: 66ae47acdd20fa03e91558dc
+                  id: 66ae47acdd20fa03e91558ec
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-01-19T01:17:30.463Z'
-                  updatedAt: '2025-06-29T06:53:25.051Z'
+                  createdAt: '2025-04-29T06:46:13.583Z'
+                  updatedAt: '2024-09-27T02:14:06.526Z'
   /client/api/v1/piece/list:
     post:
       tags:
@@ -14342,13 +14342,13 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - position: 319
-                      model: 66ae46743059be03c557504a
-                      id: 66ae46743059be03c557505b
+                    - position: 260
+                      model: 66ae47acdd20fa03e91558dc
+                      id: 66ae47acdd20fa03e91558ed
                       isDeleted: false
                       isActive: true
-                      createdAt: '2025-01-19T01:17:30.463Z'
-                      updatedAt: '2025-06-29T06:53:25.051Z'
+                      createdAt: '2025-04-29T06:46:13.583Z'
+                      updatedAt: '2024-09-27T02:14:06.526Z'
                   paginator:
                     itemCount: 1
                     offset: 0
@@ -14410,8 +14410,8 @@ paths:
               type: object
               example:
                 data:
-                  - position: 319
-                    model: 66ae46743059be03c557504a
+                  - position: 260
+                    model: 66ae47acdd20fa03e91558dc
       security:
         - bearerAuth: []
       parameters:
@@ -14487,8 +14487,8 @@ paths:
             schema:
               type: object
               example:
-                position: 319
-                model: 66ae46743059be03c557504a
+                position: 260
+                model: 66ae47acdd20fa03e91558dc
       security:
         - bearerAuth: []
       parameters:
@@ -14518,13 +14518,13 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  position: 319
-                  model: 66ae46743059be03c557504a
-                  id: 66ae46743059be03c557505d
+                  position: 260
+                  model: 66ae47acdd20fa03e91558dc
+                  id: 66ae47acdd20fa03e91558ef
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-01-19T01:17:30.463Z'
-                  updatedAt: '2025-06-29T06:53:25.051Z'
+                  createdAt: '2025-04-29T06:46:13.583Z'
+                  updatedAt: '2024-09-27T02:14:06.526Z'
   /client/api/v1/piece/partial-update/{id}:
     put:
       tags:
@@ -14567,13 +14567,13 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  position: 319
-                  model: 66ae46743059be03c557504a
-                  id: 66ae46743059be03c557505e
+                  position: 260
+                  model: 66ae47acdd20fa03e91558dc
+                  id: 66ae47acdd20fa03e91558f0
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-01-19T01:17:30.463Z'
-                  updatedAt: '2025-06-29T06:53:25.051Z'
+                  createdAt: '2025-04-29T06:46:13.583Z'
+                  updatedAt: '2024-09-27T02:14:06.526Z'
   /client/api/v1/piece/softDelete/{id}:
     put:
       tags:
@@ -14762,11 +14762,11 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  img: panel
-                  eat: alarm
-                  table: feed
-                  name: Noel Wilderman
-                  id: 66ae46743059be03c5575072
+                  img: Horizontal
+                  eat: Creative
+                  table: copying
+                  name: Ms. Fred Kerluke
+                  id: 66ae47acdd20fa03e9155904
                   isDeleted: false
   /client/api/v1/piecetemplate/create:
     post:
@@ -14779,10 +14779,10 @@ paths:
             schema:
               type: object
               example:
-                img: panel
-                eat: alarm
-                table: feed
-                name: Noel Wilderman
+                img: Horizontal
+                eat: Creative
+                table: copying
+                name: Ms. Fred Kerluke
       security:
         - bearerAuth: []
       parameters:
@@ -14807,11 +14807,11 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  img: panel
-                  eat: alarm
-                  table: feed
-                  name: Noel Wilderman
-                  id: 66ae46743059be03c5575070
+                  img: Horizontal
+                  eat: Creative
+                  table: copying
+                  name: Ms. Fred Kerluke
+                  id: 66ae47acdd20fa03e9155902
                   isDeleted: false
   /client/api/v1/piecetemplate/list:
     post:
@@ -14870,11 +14870,11 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - img: panel
-                      eat: alarm
-                      table: feed
-                      name: Noel Wilderman
-                      id: 66ae46743059be03c5575071
+                    - img: Horizontal
+                      eat: Creative
+                      table: copying
+                      name: Ms. Fred Kerluke
+                      id: 66ae47acdd20fa03e9155903
                       isDeleted: false
                   paginator:
                     itemCount: 1
@@ -14937,10 +14937,10 @@ paths:
               type: object
               example:
                 data:
-                  - img: panel
-                    eat: alarm
-                    table: feed
-                    name: Noel Wilderman
+                  - img: Horizontal
+                    eat: Creative
+                    table: copying
+                    name: Ms. Fred Kerluke
       security:
         - bearerAuth: []
       parameters:
@@ -15016,10 +15016,10 @@ paths:
             schema:
               type: object
               example:
-                img: panel
-                eat: alarm
-                table: feed
-                name: Noel Wilderman
+                img: Horizontal
+                eat: Creative
+                table: copying
+                name: Ms. Fred Kerluke
       security:
         - bearerAuth: []
       parameters:
@@ -15049,11 +15049,11 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  img: panel
-                  eat: alarm
-                  table: feed
-                  name: Noel Wilderman
-                  id: 66ae46743059be03c5575073
+                  img: Horizontal
+                  eat: Creative
+                  table: copying
+                  name: Ms. Fred Kerluke
+                  id: 66ae47acdd20fa03e9155905
                   isDeleted: false
   /client/api/v1/piecetemplate/partial-update/{id}:
     put:
@@ -15097,11 +15097,11 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  img: panel
-                  eat: alarm
-                  table: feed
-                  name: Noel Wilderman
-                  id: 66ae46743059be03c5575074
+                  img: Horizontal
+                  eat: Creative
+                  table: copying
+                  name: Ms. Fred Kerluke
+                  id: 66ae47acdd20fa03e9155906
                   isDeleted: false
   /client/api/v1/piecetemplate/softDelete/{id}:
     put:
@@ -15291,15 +15291,15 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  slot: 66ae46743059be03c5575077
-                  position: 53
-                  x: 33
-                  'y': Sleek
-                  id: 66ae46743059be03c5575089
+                  slot: 66ae47acdd20fa03e9155909
+                  position: 781
+                  x: 188
+                  'y': Indiana
+                  id: 66ae47acdd20fa03e915591b
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-12-03T03:37:31.493Z'
-                  updatedAt: '2025-07-22T23:12:07.300Z'
+                  createdAt: '2025-06-09T19:31:46.862Z'
+                  updatedAt: '2025-07-19T19:37:22.494Z'
   /client/api/v1/slot/create:
     post:
       tags:
@@ -15311,10 +15311,10 @@ paths:
             schema:
               type: object
               example:
-                slot: 66ae46743059be03c5575077
-                position: 53
-                x: 33
-                'y': Sleek
+                slot: 66ae47acdd20fa03e9155909
+                position: 781
+                x: 188
+                'y': Indiana
       security:
         - bearerAuth: []
       parameters:
@@ -15339,15 +15339,15 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  slot: 66ae46743059be03c5575077
-                  position: 53
-                  x: 33
-                  'y': Sleek
-                  id: 66ae46743059be03c5575087
+                  slot: 66ae47acdd20fa03e9155909
+                  position: 781
+                  x: 188
+                  'y': Indiana
+                  id: 66ae47acdd20fa03e9155919
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-12-03T03:37:31.493Z'
-                  updatedAt: '2025-07-22T23:12:07.300Z'
+                  createdAt: '2025-06-09T19:31:46.862Z'
+                  updatedAt: '2025-07-19T19:37:22.494Z'
   /client/api/v1/slot/list:
     post:
       tags:
@@ -15405,15 +15405,15 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - slot: 66ae46743059be03c5575077
-                      position: 53
-                      x: 33
-                      'y': Sleek
-                      id: 66ae46743059be03c5575088
+                    - slot: 66ae47acdd20fa03e9155909
+                      position: 781
+                      x: 188
+                      'y': Indiana
+                      id: 66ae47acdd20fa03e915591a
                       isDeleted: false
                       isActive: true
-                      createdAt: '2024-12-03T03:37:31.493Z'
-                      updatedAt: '2025-07-22T23:12:07.300Z'
+                      createdAt: '2025-06-09T19:31:46.862Z'
+                      updatedAt: '2025-07-19T19:37:22.494Z'
                   paginator:
                     itemCount: 1
                     offset: 0
@@ -15475,10 +15475,10 @@ paths:
               type: object
               example:
                 data:
-                  - slot: 66ae46743059be03c5575077
-                    position: 53
-                    x: 33
-                    'y': Sleek
+                  - slot: 66ae47acdd20fa03e9155909
+                    position: 781
+                    x: 188
+                    'y': Indiana
       security:
         - bearerAuth: []
       parameters:
@@ -15554,10 +15554,10 @@ paths:
             schema:
               type: object
               example:
-                slot: 66ae46743059be03c5575077
-                position: 53
-                x: 33
-                'y': Sleek
+                slot: 66ae47acdd20fa03e9155909
+                position: 781
+                x: 188
+                'y': Indiana
       security:
         - bearerAuth: []
       parameters:
@@ -15587,15 +15587,15 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  slot: 66ae46743059be03c5575077
-                  position: 53
-                  x: 33
-                  'y': Sleek
-                  id: 66ae46743059be03c557508a
+                  slot: 66ae47acdd20fa03e9155909
+                  position: 781
+                  x: 188
+                  'y': Indiana
+                  id: 66ae47acdd20fa03e915591c
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-12-03T03:37:31.493Z'
-                  updatedAt: '2025-07-22T23:12:07.300Z'
+                  createdAt: '2025-06-09T19:31:46.862Z'
+                  updatedAt: '2025-07-19T19:37:22.494Z'
   /client/api/v1/slot/partial-update/{id}:
     put:
       tags:
@@ -15638,15 +15638,15 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  slot: 66ae46743059be03c5575077
-                  position: 53
-                  x: 33
-                  'y': Sleek
-                  id: 66ae46743059be03c557508b
+                  slot: 66ae47acdd20fa03e9155909
+                  position: 781
+                  x: 188
+                  'y': Indiana
+                  id: 66ae47acdd20fa03e915591d
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-12-03T03:37:31.493Z'
-                  updatedAt: '2025-07-22T23:12:07.300Z'
+                  createdAt: '2025-06-09T19:31:46.862Z'
+                  updatedAt: '2025-07-19T19:37:22.494Z'
   /client/api/v1/slot/softDelete/{id}:
     put:
       tags:
@@ -15835,14 +15835,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  coordnate: 211
-                  x: 868
-                  'y': 17
-                  id: 66ae46743059be03c557509f
+                  coordnate: 505
+                  x: 522
+                  'y': 413
+                  id: 66ae47acdd20fa03e9155931
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-09-22T21:39:42.772Z'
-                  updatedAt: '2025-05-10T03:40:58.207Z'
+                  createdAt: '2025-06-19T19:56:37.427Z'
+                  updatedAt: '2024-10-21T11:03:55.919Z'
   /client/api/v1/table/create:
     post:
       tags:
@@ -15854,9 +15854,9 @@ paths:
             schema:
               type: object
               example:
-                coordnate: 211
-                x: 868
-                'y': 17
+                coordnate: 505
+                x: 522
+                'y': 413
       security:
         - bearerAuth: []
       parameters:
@@ -15881,14 +15881,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  coordnate: 211
-                  x: 868
-                  'y': 17
-                  id: 66ae46743059be03c557509d
+                  coordnate: 505
+                  x: 522
+                  'y': 413
+                  id: 66ae47acdd20fa03e915592f
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-09-22T21:39:42.772Z'
-                  updatedAt: '2025-05-10T03:40:58.207Z'
+                  createdAt: '2025-06-19T19:56:37.427Z'
+                  updatedAt: '2024-10-21T11:03:55.919Z'
   /client/api/v1/table/list:
     post:
       tags:
@@ -15946,14 +15946,14 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - coordnate: 211
-                      x: 868
-                      'y': 17
-                      id: 66ae46743059be03c557509e
+                    - coordnate: 505
+                      x: 522
+                      'y': 413
+                      id: 66ae47acdd20fa03e9155930
                       isDeleted: false
                       isActive: true
-                      createdAt: '2024-09-22T21:39:42.772Z'
-                      updatedAt: '2025-05-10T03:40:58.207Z'
+                      createdAt: '2025-06-19T19:56:37.427Z'
+                      updatedAt: '2024-10-21T11:03:55.919Z'
                   paginator:
                     itemCount: 1
                     offset: 0
@@ -16015,9 +16015,9 @@ paths:
               type: object
               example:
                 data:
-                  - coordnate: 211
-                    x: 868
-                    'y': 17
+                  - coordnate: 505
+                    x: 522
+                    'y': 413
       security:
         - bearerAuth: []
       parameters:
@@ -16093,9 +16093,9 @@ paths:
             schema:
               type: object
               example:
-                coordnate: 211
-                x: 868
-                'y': 17
+                coordnate: 505
+                x: 522
+                'y': 413
       security:
         - bearerAuth: []
       parameters:
@@ -16125,14 +16125,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  coordnate: 211
-                  x: 868
-                  'y': 17
-                  id: 66ae46743059be03c55750a0
+                  coordnate: 505
+                  x: 522
+                  'y': 413
+                  id: 66ae47acdd20fa03e9155932
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-09-22T21:39:42.772Z'
-                  updatedAt: '2025-05-10T03:40:58.207Z'
+                  createdAt: '2025-06-19T19:56:37.427Z'
+                  updatedAt: '2024-10-21T11:03:55.919Z'
   /client/api/v1/table/partial-update/{id}:
     put:
       tags:
@@ -16175,14 +16175,14 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  coordnate: 211
-                  x: 868
-                  'y': 17
-                  id: 66ae46743059be03c55750a1
+                  coordnate: 505
+                  x: 522
+                  'y': 413
+                  id: 66ae47acdd20fa03e9155933
                   isDeleted: false
                   isActive: true
-                  createdAt: '2024-09-22T21:39:42.772Z'
-                  updatedAt: '2025-05-10T03:40:58.207Z'
+                  createdAt: '2025-06-19T19:56:37.427Z'
+                  updatedAt: '2024-10-21T11:03:55.919Z'
   /client/api/v1/table/softDelete/{id}:
     put:
       tags:
@@ -16371,17 +16371,17 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  type: 253
-                  size: 174
-                  time: 854
-                  jogada: 66ae46743059be03c55750a4
-                  chat: 66ae46743059be03c55750a5
-                  timepast: 827
-                  id: 66ae46743059be03c55750b7
+                  type: 581
+                  size: 320
+                  time: 69
+                  jogada: 66ae47acdd20fa03e9155936
+                  chat: 66ae47acdd20fa03e9155937
+                  timepast: 228
+                  id: 66ae47acdd20fa03e9155949
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-04-07T19:12:59.479Z'
-                  updatedAt: '2025-05-15T18:32:32.435Z'
+                  createdAt: '2024-10-13T04:28:40.739Z'
+                  updatedAt: '2025-01-29T13:14:38.348Z'
   /client/api/v1/game/create:
     post:
       tags:
@@ -16393,12 +16393,12 @@ paths:
             schema:
               type: object
               example:
-                type: 253
-                size: 174
-                time: 854
-                jogada: 66ae46743059be03c55750a4
-                chat: 66ae46743059be03c55750a5
-                timepast: 827
+                type: 581
+                size: 320
+                time: 69
+                jogada: 66ae47acdd20fa03e9155936
+                chat: 66ae47acdd20fa03e9155937
+                timepast: 228
       security:
         - bearerAuth: []
       parameters:
@@ -16423,17 +16423,17 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  type: 253
-                  size: 174
-                  time: 854
-                  jogada: 66ae46743059be03c55750a4
-                  chat: 66ae46743059be03c55750a5
-                  timepast: 827
-                  id: 66ae46743059be03c55750b5
+                  type: 581
+                  size: 320
+                  time: 69
+                  jogada: 66ae47acdd20fa03e9155936
+                  chat: 66ae47acdd20fa03e9155937
+                  timepast: 228
+                  id: 66ae47acdd20fa03e9155947
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-04-07T19:12:59.479Z'
-                  updatedAt: '2025-05-15T18:32:32.435Z'
+                  createdAt: '2024-10-13T04:28:40.739Z'
+                  updatedAt: '2025-01-29T13:14:38.348Z'
   /client/api/v1/game/list:
     post:
       tags:
@@ -16491,17 +16491,17 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - type: 253
-                      size: 174
-                      time: 854
-                      jogada: 66ae46743059be03c55750a4
-                      chat: 66ae46743059be03c55750a5
-                      timepast: 827
-                      id: 66ae46743059be03c55750b6
+                    - type: 581
+                      size: 320
+                      time: 69
+                      jogada: 66ae47acdd20fa03e9155936
+                      chat: 66ae47acdd20fa03e9155937
+                      timepast: 228
+                      id: 66ae47acdd20fa03e9155948
                       isDeleted: false
                       isActive: true
-                      createdAt: '2025-04-07T19:12:59.479Z'
-                      updatedAt: '2025-05-15T18:32:32.435Z'
+                      createdAt: '2024-10-13T04:28:40.739Z'
+                      updatedAt: '2025-01-29T13:14:38.348Z'
                   paginator:
                     itemCount: 1
                     offset: 0
@@ -16563,12 +16563,12 @@ paths:
               type: object
               example:
                 data:
-                  - type: 253
-                    size: 174
-                    time: 854
-                    jogada: 66ae46743059be03c55750a4
-                    chat: 66ae46743059be03c55750a5
-                    timepast: 827
+                  - type: 581
+                    size: 320
+                    time: 69
+                    jogada: 66ae47acdd20fa03e9155936
+                    chat: 66ae47acdd20fa03e9155937
+                    timepast: 228
       security:
         - bearerAuth: []
       parameters:
@@ -16644,12 +16644,12 @@ paths:
             schema:
               type: object
               example:
-                type: 253
-                size: 174
-                time: 854
-                jogada: 66ae46743059be03c55750a4
-                chat: 66ae46743059be03c55750a5
-                timepast: 827
+                type: 581
+                size: 320
+                time: 69
+                jogada: 66ae47acdd20fa03e9155936
+                chat: 66ae47acdd20fa03e9155937
+                timepast: 228
       security:
         - bearerAuth: []
       parameters:
@@ -16679,17 +16679,17 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  type: 253
-                  size: 174
-                  time: 854
-                  jogada: 66ae46743059be03c55750a4
-                  chat: 66ae46743059be03c55750a5
-                  timepast: 827
-                  id: 66ae46743059be03c55750b8
+                  type: 581
+                  size: 320
+                  time: 69
+                  jogada: 66ae47acdd20fa03e9155936
+                  chat: 66ae47acdd20fa03e9155937
+                  timepast: 228
+                  id: 66ae47acdd20fa03e915594a
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-04-07T19:12:59.479Z'
-                  updatedAt: '2025-05-15T18:32:32.435Z'
+                  createdAt: '2024-10-13T04:28:40.739Z'
+                  updatedAt: '2025-01-29T13:14:38.348Z'
   /client/api/v1/game/partial-update/{id}:
     put:
       tags:
@@ -16732,17 +16732,17 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  type: 253
-                  size: 174
-                  time: 854
-                  jogada: 66ae46743059be03c55750a4
-                  chat: 66ae46743059be03c55750a5
-                  timepast: 827
-                  id: 66ae46743059be03c55750b9
+                  type: 581
+                  size: 320
+                  time: 69
+                  jogada: 66ae47acdd20fa03e9155936
+                  chat: 66ae47acdd20fa03e9155937
+                  timepast: 228
+                  id: 66ae47acdd20fa03e915594b
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-04-07T19:12:59.479Z'
-                  updatedAt: '2025-05-15T18:32:32.435Z'
+                  createdAt: '2024-10-13T04:28:40.739Z'
+                  updatedAt: '2025-01-29T13:14:38.348Z'
   /client/api/v1/game/softDelete/{id}:
     put:
       tags:
@@ -16931,16 +16931,16 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  username: Lenny_Gulgowski
-                  email: Rupert_Kub3@gmail.com
-                  name: Essie Streich
-                  mobileNo: (536) 836-9665
+                  username: Ellis73
+                  email: Cecelia68@gmail.com
+                  name: Mrs. Edna Kuhic
+                  mobileNo: (682) 423-3514
                   userType: 1
-                  id: 66ae46743059be03c55750d3
+                  id: 66ae47acdd20fa03e9155965
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-05-06T20:44:25.984Z'
-                  updatedAt: '2025-06-12T15:22:21.728Z'
+                  createdAt: '2025-07-20T14:47:36.432Z'
+                  updatedAt: '2025-06-29T21:23:36.791Z'
   /client/api/v1/user/me:
     get:
       tags:
@@ -16970,16 +16970,16 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  username: Lenny_Gulgowski
-                  email: Rupert_Kub3@gmail.com
-                  name: Essie Streich
-                  mobileNo: (536) 836-9665
+                  username: Ellis73
+                  email: Cecelia68@gmail.com
+                  name: Mrs. Edna Kuhic
+                  mobileNo: (682) 423-3514
                   userType: 1
-                  id: 66ae46743059be03c55750d9
+                  id: 66ae47acdd20fa03e915596b
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-05-06T20:44:25.984Z'
-                  updatedAt: '2025-06-12T15:22:21.728Z'
+                  createdAt: '2025-07-20T14:47:36.432Z'
+                  updatedAt: '2025-06-29T21:23:36.791Z'
   /client/api/v1/user/create:
     post:
       tags:
@@ -16991,11 +16991,11 @@ paths:
             schema:
               type: object
               example:
-                username: Lenny_Gulgowski
-                password: igzeuurbaaZ0ZgL
-                email: Rupert_Kub3@gmail.com
-                name: Essie Streich
-                mobileNo: (536) 836-9665
+                username: Ellis73
+                password: b1xcUeMLzDGhvyQ
+                email: Cecelia68@gmail.com
+                name: Mrs. Edna Kuhic
+                mobileNo: (682) 423-3514
                 userType: 1
       security:
         - bearerAuth: []
@@ -17021,16 +17021,16 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  username: Lenny_Gulgowski
-                  email: Rupert_Kub3@gmail.com
-                  name: Essie Streich
-                  mobileNo: (536) 836-9665
+                  username: Ellis73
+                  email: Cecelia68@gmail.com
+                  name: Mrs. Edna Kuhic
+                  mobileNo: (682) 423-3514
                   userType: 1
-                  id: 66ae46743059be03c55750d1
+                  id: 66ae47acdd20fa03e9155963
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-05-06T20:44:25.984Z'
-                  updatedAt: '2025-06-12T15:22:21.728Z'
+                  createdAt: '2025-07-20T14:47:36.432Z'
+                  updatedAt: '2025-06-29T21:23:36.791Z'
   /client/api/v1/user/list:
     post:
       tags:
@@ -17088,16 +17088,16 @@ paths:
                 message: Your request is successfully executed
                 data:
                   data:
-                    - username: Lenny_Gulgowski
-                      email: Rupert_Kub3@gmail.com
-                      name: Essie Streich
-                      mobileNo: (536) 836-9665
+                    - username: Ellis73
+                      email: Cecelia68@gmail.com
+                      name: Mrs. Edna Kuhic
+                      mobileNo: (682) 423-3514
                       userType: 1
-                      id: 66ae46743059be03c55750d2
+                      id: 66ae47acdd20fa03e9155964
                       isDeleted: false
                       isActive: true
-                      createdAt: '2025-05-06T20:44:25.984Z'
-                      updatedAt: '2025-06-12T15:22:21.728Z'
+                      createdAt: '2025-07-20T14:47:36.432Z'
+                      updatedAt: '2025-06-29T21:23:36.791Z'
                   paginator:
                     itemCount: 1
                     offset: 0
@@ -17159,11 +17159,11 @@ paths:
               type: object
               example:
                 data:
-                  - username: Lenny_Gulgowski
-                    password: igzeuurbaaZ0ZgL
-                    email: Rupert_Kub3@gmail.com
-                    name: Essie Streich
-                    mobileNo: (536) 836-9665
+                  - username: Ellis73
+                    password: b1xcUeMLzDGhvyQ
+                    email: Cecelia68@gmail.com
+                    name: Mrs. Edna Kuhic
+                    mobileNo: (682) 423-3514
                     userType: 1
       security:
         - bearerAuth: []
@@ -17201,11 +17201,11 @@ paths:
             schema:
               type: object
               example:
-                username: Lenny_Gulgowski
-                password: igzeuurbaaZ0ZgL
-                email: Rupert_Kub3@gmail.com
-                name: Essie Streich
-                mobileNo: (536) 836-9665
+                username: Ellis73
+                password: b1xcUeMLzDGhvyQ
+                email: Cecelia68@gmail.com
+                name: Mrs. Edna Kuhic
+                mobileNo: (682) 423-3514
                 userType: 1
       security:
         - bearerAuth: []
@@ -17236,16 +17236,16 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  username: Lenny_Gulgowski
-                  email: Rupert_Kub3@gmail.com
-                  name: Essie Streich
-                  mobileNo: (536) 836-9665
+                  username: Ellis73
+                  email: Cecelia68@gmail.com
+                  name: Mrs. Edna Kuhic
+                  mobileNo: (682) 423-3514
                   userType: 1
-                  id: 66ae46743059be03c55750d4
+                  id: 66ae47acdd20fa03e9155966
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-05-06T20:44:25.984Z'
-                  updatedAt: '2025-06-12T15:22:21.728Z'
+                  createdAt: '2025-07-20T14:47:36.432Z'
+                  updatedAt: '2025-06-29T21:23:36.791Z'
   /client/api/v1/user/partial-update/{id}:
     put:
       tags:
@@ -17288,16 +17288,16 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  username: Lenny_Gulgowski
-                  email: Rupert_Kub3@gmail.com
-                  name: Essie Streich
-                  mobileNo: (536) 836-9665
+                  username: Ellis73
+                  email: Cecelia68@gmail.com
+                  name: Mrs. Edna Kuhic
+                  mobileNo: (682) 423-3514
                   userType: 1
-                  id: 66ae46743059be03c55750d5
+                  id: 66ae47acdd20fa03e9155967
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-05-06T20:44:25.984Z'
-                  updatedAt: '2025-06-12T15:22:21.728Z'
+                  createdAt: '2025-07-20T14:47:36.432Z'
+                  updatedAt: '2025-06-29T21:23:36.791Z'
   /client/api/v1/user/updateBulk:
     put:
       tags:
@@ -17349,11 +17349,11 @@ paths:
             schema:
               type: object
               example:
-                username: Lenny_Gulgowski
-                password: igzeuurbaaZ0ZgL
-                email: Rupert_Kub3@gmail.com
-                name: Essie Streich
-                mobileNo: (536) 836-9665
+                username: Ellis73
+                password: b1xcUeMLzDGhvyQ
+                email: Cecelia68@gmail.com
+                name: Mrs. Edna Kuhic
+                mobileNo: (682) 423-3514
                 userType: 1
       security:
         - bearerAuth: []
@@ -17379,16 +17379,16 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  username: Lenny_Gulgowski
-                  email: Rupert_Kub3@gmail.com
-                  name: Essie Streich
-                  mobileNo: (536) 836-9665
+                  username: Ellis73
+                  email: Cecelia68@gmail.com
+                  name: Mrs. Edna Kuhic
+                  mobileNo: (682) 423-3514
                   userType: 1
-                  id: 66ae46743059be03c55750d8
+                  id: 66ae47acdd20fa03e915596a
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-05-06T20:44:25.984Z'
-                  updatedAt: '2025-06-12T15:22:21.728Z'
+                  createdAt: '2025-07-20T14:47:36.432Z'
+                  updatedAt: '2025-06-29T21:23:36.791Z'
   /client/auth/login:
     post:
       tags:
@@ -17426,18 +17426,18 @@ paths:
                 status: SUCCESS
                 message: Login Successful
                 data:
-                  username: Lenny_Gulgowski
-                  email: Rupert_Kub3@gmail.com
-                  name: Essie Streich
-                  mobileNo: (536) 836-9665
-                  id: 66ae46743059be03c55750da
+                  username: Ellis73
+                  email: Cecelia68@gmail.com
+                  name: Mrs. Edna Kuhic
+                  mobileNo: (682) 423-3514
+                  id: 66ae47acdd20fa03e915596c
                   loginRetryLimit: 0
                   token: >-
                     eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMWRlZDVjMGFjMjAxMmFjMDI4ODkxZiIsInVzZXJuYW1lIjoiYWRtaW4iLCJpYXQiOjE2MjkzNTEyNzAsImV4cCI6MTYyOTk1MTI3MH0.BJ-WKjNYeFDQ4pn8kfli5gwn6GLz_c3voFht20Agj9k
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-03-19T09:55:46.241Z'
-                  updatedAt: '2025-02-04T23:30:44.598Z'
+                  createdAt: '2025-01-19T19:56:08.954Z'
+                  updatedAt: '2024-10-24T20:33:00.392Z'
   /client/auth/register:
     post:
       tags:
@@ -17449,11 +17449,11 @@ paths:
             schema:
               type: object
               example:
-                username: Lenny_Gulgowski
-                password: igzeuurbaaZ0ZgL
-                email: Rupert_Kub3@gmail.com
-                name: Essie Streich
-                mobileNo: (536) 836-9665
+                username: Ellis73
+                password: b1xcUeMLzDGhvyQ
+                email: Cecelia68@gmail.com
+                name: Mrs. Edna Kuhic
+                mobileNo: (682) 423-3514
       security:
         - undefinedAuth: []
       parameters:
@@ -17478,16 +17478,16 @@ paths:
                 status: SUCCESS
                 message: Your request is successfully executed
                 data:
-                  username: Lenny_Gulgowski
-                  email: Rupert_Kub3@gmail.com
-                  name: Essie Streich
-                  mobileNo: (536) 836-9665
-                  id: 66ae46743059be03c55750da
+                  username: Ellis73
+                  email: Cecelia68@gmail.com
+                  name: Mrs. Edna Kuhic
+                  mobileNo: (682) 423-3514
+                  id: 66ae47acdd20fa03e915596c
                   loginRetryLimit: 0
                   isDeleted: false
                   isActive: true
-                  createdAt: '2025-03-19T09:55:46.241Z'
-                  updatedAt: '2025-02-04T23:30:44.598Z'
+                  createdAt: '2025-01-19T19:56:08.954Z'
+                  updatedAt: '2024-10-24T20:33:00.392Z'
   /client/auth/forgot-password:
     post:
       tags:

@@ -1,0 +1,19 @@
+{
+  "id": "63861a8c-77e9-4a58-b0dc-6d431922edbd",
+  "name": "e_commerce_mvc_mongodb_environment",
+  "values": [
+    {
+      "key": "token",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMWRlZDVjMGFjMjAxMmFjMDI4ODkxZiIsInVzZXJuYW1lIjoiYWRtaW4iLCJpYXQiOjE2MjkzNTEyNzAsImV4cCI6MTYyOTk1MTI3MH0.BJ-WKjNYeFDQ4pn8kfli5gwn6GLz_c3voFht20Agj9k",
+      "enabled": true
+    },
+    {
+      "key": "url",
+      "value": "http://localhost:5000",
+      "enabled": true
+    }
+  ],
+  "_postman_variable_scope": "environment",
+  "_postman_exported_at": "2024-08-03T20:06:13.493Z",
+  "_postman_exported_using": "Postman"
+}

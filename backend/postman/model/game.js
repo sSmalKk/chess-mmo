@@ -88,7 +88,7 @@ const schema = new Schema(
       type:Schema.Types.ObjectId
     },
 
-    ch:{
+    chat:{
       type:String,
       required:true
     },
