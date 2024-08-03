@@ -8,6 +8,7 @@ const slotSchemaKey = require('../../../utils/validation/slotValidation');
 const validation = require('../../../utils/validateRequest');
 const dbService = require('../../../utils/dbService');
 const ObjectId = require('mongodb').ObjectId;
+const deleteDependentService = require('../../../utils/deleteDependent');
 const utils = require('../../../utils/common');
    
 /**
@@ -269,6 +270,7 @@ const partialUpdateSlot = async (req,res) => {
     return res.internalServerError({ message:error.message });
   }
 };
+    
 /**
  * @description : deactivate document of Slot from table by id;
  * @param {Object} req : request including id in request params.
@@ -280,12 +282,12 @@ const softDeleteSlot = async (req,res) => {
     if (!req.params.id){
       return res.badRequest({ message : 'Insufficient request parameters! id is required.' });
     }
-    let query = { _id:req.params.id };
+    const query = { _id:req.params.id };
     const updateBody = {
       isDeleted: true,
       updatedBy: req.user.id,
     };
-    let updatedSlot = await dbService.updateOne(Slot, query, updateBody);
+    let updatedSlot = await deleteDependentService.softDeleteSlot(query, updateBody);
     if (!updatedSlot){
       return res.recordNotFound();
     }
@@ -294,7 +296,7 @@ const softDeleteSlot = async (req,res) => {
     return res.internalServerError({ message:error.message }); 
   }
 };
-
+    
 /**
  * @description : delete document of Slot from table.
  * @param {Object} req : request including id as req param.
@@ -302,20 +304,24 @@ const softDeleteSlot = async (req,res) => {
  * @return {Object} : deleted Slot. {status, message, data}
  */
 const deleteSlot = async (req,res) => {
-  try { 
+  try {
     if (!req.params.id){
       return res.badRequest({ message : 'Insufficient request parameters! id is required.' });
     }
     const query = { _id:req.params.id };
-    const deletedSlot = await dbService.deleteOne(Slot, query);
+    let deletedSlot;
+    if (req.body.isWarning) { 
+      deletedSlot = await deleteDependentService.countSlot(query);
+    } else {
+      deletedSlot = await deleteDependentService.deleteSlot(query);
+    }
     if (!deletedSlot){
       return res.recordNotFound();
     }
     return res.success({ data :deletedSlot });
-        
   }
   catch (error){
-    return res.internalServerError({ message:error.message });
+    return res.internalServerError({ message:error.message }); 
   }
 };
     
@@ -332,15 +338,22 @@ const deleteManySlot = async (req, res) => {
       return res.badRequest();
     }
     const query = { _id:{ $in:ids } };
-    const deletedSlot = await dbService.deleteMany(Slot,query);
+    let deletedSlot;
+    if (req.body.isWarning) {
+      deletedSlot = await deleteDependentService.countSlot(query);
+    }
+    else {
+      deletedSlot = await deleteDependentService.deleteSlot(query);
+    }
     if (!deletedSlot){
       return res.recordNotFound();
     }
-    return res.success({ data :{ count :deletedSlot } });
+    return res.success({ data :deletedSlot });
   } catch (error){
     return res.internalServerError({ message:error.message }); 
   }
 };
+    
 /**
  * @description : deactivate multiple documents of Slot from table by ids;
  * @param {Object} req : request including array of ids in request body.
@@ -358,12 +371,11 @@ const softDeleteManySlot = async (req,res) => {
       isDeleted: true,
       updatedBy: req.user.id,
     };
-    let updatedSlot = await dbService.updateMany(Slot,query, updateBody);
+    let updatedSlot = await deleteDependentService.softDeleteSlot(query, updateBody);
     if (!updatedSlot) {
       return res.recordNotFound();
     }
-    return res.success({ data:{ count :updatedSlot } });
-        
+    return res.success({ data:updatedSlot });
   } catch (error){
     return res.internalServerError({ message:error.message }); 
   }

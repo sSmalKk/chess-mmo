@@ -1,0 +1,17 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="2.28564" width="16" height="11.4286" rx="4" fill="white"/>
+<mask id="mask0_2295_3690" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="2" width="16" height="12">
+<rect y="2.28564" width="16" height="11.4286" rx="4" fill="white"/>
+</mask>
+<g mask="url(#mask0_2295_3690)">
+<rect y="2.28564" width="16" height="11.4286" fill="#05AB41"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3.25342 9.11942C2.44142 8.59401 2.44142 7.40598 3.25342 6.88057L7.27525 4.2782C7.71603 3.99299 8.28315 3.993 8.72392 4.2782L12.7458 6.88057C13.5578 7.40598 13.5578 8.59401 12.7458 9.11942L8.72392 11.7218C8.28315 12.007 7.71603 12.007 7.27525 11.7218L3.25342 9.11942Z" fill="#FDD216"/>
+<ellipse cx="7.99967" cy="7.99992" rx="2.66667" ry="2.66667" fill="#053087"/>
+<mask id="mask1_2295_3690" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="5" y="5" width="6" height="6">
+<ellipse cx="7.99967" cy="7.99992" rx="2.66667" ry="2.66667" fill="white"/>
+</mask>
+<g mask="url(#mask1_2295_3690)">
+<path d="M5.01665 7.30287C5.43533 6.96383 6.78639 7.28501 8.04757 7.62143C9.30875 7.95786 10.6241 8.66301 10.959 9.07659" stroke="white" stroke-width="2.66667" stroke-linecap="square"/>
+</g>
+</g>
+</svg>

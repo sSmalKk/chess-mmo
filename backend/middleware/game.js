@@ -3,10 +3,10 @@
  */
 
 const mongoose = require('mongoose');
-const Game = require('../models/game');
-const Table = require('../models/table');
-const Slot = require('../models/slot');
-const ChatGroup = require('../models/chat_group');
+const Game = require('../model/game');
+const Table = require('../model/table');
+const Slot = require('../model/slot');
+const ChatGroup = require('../model/chat_group');
 
 module.exports = async (req, res, next) => {
   try {
