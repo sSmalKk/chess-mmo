@@ -1,48 +1,56 @@
-.game-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+html, body, #root {
+  height: 100%;
+  margin: 0;
 }
 
-.boards-wrapper {
+.game-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.chess-boards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  position: relative;
+  height: calc(100vh - 40px); /* ajuste para a barra inferior */
+  padding-bottom: 40px; /* ajuste para a barra inferior */
 }
 
-.board-container {
+.chess-board {
   display: grid;
-  grid-template-columns: repeat(8, 50px);
-  grid-template-rows: repeat(8, 50px);
-  border: 1px solid #000;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  margin: 5px;
+  width: 100px;
+  height: 100px;
 }
 
-.board-container .row {
-  display: flex;
+.chess-board .row {
+  width: 100%;
 }
 
-.board-container .col {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #000;
+.chess-board .col {
+  position: relative;
+  padding-top: 100%; /* forçar a altura a ser igual à largura */
 }
 
-.board-container .col.bg-white {
-  background-color: white;
-}
-
-.board-container .col.bg-dark {
-  background-color: black;
+.chess-board .col::before {
+  content: attr(data-row) attr(data-col);
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: red;
+  padding: 5px;
+  font-size: 0.8em;
 }
 
 .minimap {
   width: 200px;
   height: 200px;
   cursor: pointer;
-  border: 2px solid #fff;
 }
 
 .map-viewer {
@@ -51,4 +59,16 @@
   height: 800px;
   background: white;
   border: 2px solid black;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 1000;
+}
+
+.bottom-bar {
+  height: 40px;
+  bottom: 0;
+  left: 0;
+  z-index: 500;
 }

@@ -62,7 +62,7 @@ function PageLayout({ userData }) {
           heading={userData} 
           Status={userData} 
           text={userData} 
-          className="flex flex-row md:flex-col justify-between items-center w-full md:h-auto p-[5px] md:gap-10 bg-black-900_60" 
+          className="fixed flex flex-row md:flex-col justify-between items-center w-full md:h-auto p-[5px] md:gap-10 bg-black-900_60" 
           life={0} 
         />
       )}
