@@ -1,13 +1,40 @@
-import React, { FormEvent, useState } from "react";
+import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import { Button, Input, Text } from "../../components";
 
 export default function LoginPage() {
-  const [loginSuccess, setLoginSuccess] = useState(false);
   const [loginError, setLoginError] = useState(false);
   const [message, setMessage] = useState<string>("");
-
   const apiUrl = process.env.REACT_APP_API_URL;
+  const token = localStorage.getItem("token") || process.env.JWT;
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const checkLoginStatus = async () => {
+      if (!token) return;
+
+      try {
+        const response = await fetch(`${apiUrl}/admin/user/me`, {
+          headers: {
+            Accept: "application/json",
+            Authorization: `Bearer ${token}`,
+          },
+        });
+
+        if (response.ok) {
+          navigate("/game");
+        } else {
+          localStorage.removeItem("token");
+        }
+      } catch (error) {
+        console.error("Error checking login status:", error);
+        localStorage.removeItem("token");
+      }
+    };
+
+    checkLoginStatus();
+  }, [token, navigate, apiUrl]);
 
   const handleLoginSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -15,43 +42,50 @@ export default function LoginPage() {
     const username = (e.currentTarget.elements.namedItem("login-username") as HTMLInputElement).value;
     const password = (e.currentTarget.elements.namedItem("login-password") as HTMLInputElement).value;
 
-    const formData = JSON.stringify({
-      username,
-      password,
-    });
+    const formData = JSON.stringify({ username, password });
 
     try {
-      const response = await fetch(`${apiUrl}/admin/auth/login`, {
-        method: 'POST',
+      let response = await fetch(`${apiUrl}/admin/auth/login`, {
+        method: "POST",
         headers: {
-          'Accept': 'application/json',
-          'Content-Type': 'application/json',
-          'Device-Secret': 'myjwtclientsecret',
-          'Credentials': 'include'
+          Accept: "application/json",
+          "Content-Type": "application/json",
+          "Device-Secret": "myjwtclientsecret",
+          Credentials: "include",
         },
-        body: formData
+        body: formData,
       });
+
+      if (!response.ok) {
+        response = await fetch(`${apiUrl}/client/auth/login`, {
+          method: "POST",
+          headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json",
+            "Device-Secret": "myjwtclientsecret",
+            Credentials: "include",
+          },
+          body: formData,
+        });
+      }
 
       if (response.ok) {
         const data = await response.json();
         const authToken = data.data.token;
-        localStorage.setItem('token', authToken);
-        setLoginSuccess(true);
+        localStorage.setItem("token", authToken);
         setLoginError(false);
-        window.location.href = "/game";
+        window.location.href = "/menu";
       } else {
         const errorMessage = await response.text();
         setMessage(errorMessage);
         setLoginError(true);
-        setLoginSuccess(false);
       }
     } catch (error) {
       console.error("Error logging in:", error);
+      setMessage("Failed to login. Please try again.");
       setLoginError(true);
-      setLoginSuccess(false);
     }
   };
-
 
   return (
     <>
@@ -61,17 +95,10 @@ export default function LoginPage() {
       </Helmet>
       <div className="flex flex-col items-center justify-start w-[32%] md:w-full mt-[19px] ml-[830px] mr-[72px] md:mx-5">
         <form onSubmit={handleLoginSubmit} className="flex flex-col items-center justify-start w-full p-5 bg-black-900_60">
-          {loginSuccess && (
-            <div className="flex flex-col items-center justify-center w-full bg-green-300">
-              <Text size="s" as="p" className="!text-green-700 !font-inter">
-                Login successful!
-              </Text>
-            </div>
-          )}
           {loginError && (
             <div className="flex flex-col items-center justify-start w-full p-5 bg-red-300">
               <Text size="s" as="p" className="mt-[29px] !text-red-700 !font-inter">
-                Failed to login. Please try again.
+                {message}
               </Text>
             </div>
           )}

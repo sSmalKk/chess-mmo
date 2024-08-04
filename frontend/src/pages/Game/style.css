@@ -1,0 +1,54 @@
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.board-container {
+  display: grid;
+  grid-template-columns: repeat(8, 50px);
+  grid-template-rows: repeat(8, 50px);
+  border: 1px solid #000;
+}
+
+.board-container .row {
+  display: flex;
+}
+
+.board-container .col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+}
+
+.board-container .col.bg-white {
+  background-color: white;
+}
+
+.board-container .col.bg-dark {
+  background-color: black;
+}
+
+.minimap {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  border: 2px solid #fff;
+}
+
+.map-viewer {
+  position: relative;
+  width: 800px;
+  height: 800px;
+  background: white;
+  border: 2px solid black;
+}

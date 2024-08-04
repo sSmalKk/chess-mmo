@@ -1,6 +1,6 @@
 import React from "react";
-import { Text, Img } from "./..";
-import { Link } from "react-router-dom";
+import { Text, Img } from "..";
+import { useNavigate } from "react-router-dom";
 
 interface Props {
   className?: string;
@@ -11,6 +11,44 @@ interface Props {
 }
 
 export default function Header({ ...props }: Props) {
+  const apiUrl = process.env.REACT_APP_API_URL;
+  const navigate = useNavigate();
+
+  const handleLogout = async () => {
+    const token = localStorage.getItem('token') || process.env.JWT;
+
+    try {
+      let response = await fetch(`${apiUrl}/admin/auth/logout`, {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+          "Authorization": `Bearer ${token}`
+        }
+      });
+
+      if (!response.ok) {
+        response = await fetch(`${apiUrl}/client/auth/logout`, {
+          method: "POST",
+          headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json",
+            "Authorization": `Bearer ${token}`
+          }
+        });
+      }
+
+      if (response.ok) {
+        localStorage.removeItem('token');
+        navigate("/login");
+      } else {
+        console.error("Failed to logout");
+      }
+    } catch (error) {
+      console.error("Error logging out:", error);
+    }
+  };
+
   // Se o usuário não estiver logado, não renderiza o header
   if (!props.heading) {
     return null;
@@ -25,7 +63,7 @@ export default function Header({ ...props }: Props) {
             {props.heading.userName}
           </Text>
         </div>
-        <button className="bg-red-700 text-white px-4 py-2 rounded">
+        <button onClick={handleLogout} className="bg-red-700 text-white px-4 py-2 rounded">
           LOGOUT
         </button>
       </div>
