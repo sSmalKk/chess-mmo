@@ -2,13 +2,30 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './style.css'; // Certifique-se de que este arquivo existe no mesmo diretório
+import './style.css';
+
+interface Piece {
+  image: string;
+  color: string;
+  active: boolean;
+  customColor: string;
+}
+
+const initialBoardState: Piece[][] = Array.from({ length: 8 }, () =>
+  Array.from({ length: 8 }, () => ({
+    image: "",
+    color: "",
+    active: false,
+    customColor: "",
+  }))
+);
 
 function Game() {
   const [userData, setUserData] = useState<any>(null);
   const [isAdmin, setIsAdmin] = useState<boolean>(false);
   const [showMap, setShowMap] = useState<boolean>(false);
-  const [boardCount, setBoardCount] = useState<{ columns: number, rows: number }>({ columns: 1, rows: 1 });
+  const [boardCount, setBoardCount] = useState<number>(1);
+  const [boardState, setBoardState] = useState<Piece[][]>(initialBoardState);
 
   const apiUrl = process.env.REACT_APP_API_URL;
   const token = localStorage.getItem('token') || process.env.JWT;
@@ -37,7 +54,6 @@ function Game() {
         const data = await response.json();
         setUserData(data.data);
 
-        // Verifica se o usuário é administrador
         if (data.data.userType === 'Admin') {
           setIsAdmin(true);
         }
@@ -52,10 +68,9 @@ function Game() {
 
   useEffect(() => {
     const handleResize = () => {
-      const boardSize = 100; // tamanho do tabuleiro em pixels
-      const columns = Math.ceil(window.innerWidth / boardSize);
-      const rows = Math.ceil(window.innerHeight / boardSize);
-      setBoardCount({ columns, rows });
+      const boardSize = 100;
+      const columns = Math.floor(window.innerWidth / boardSize);
+      setBoardCount(columns);
     };
 
     handleResize();
@@ -69,12 +84,15 @@ function Game() {
   }
 
   const handleMouseMove = (event: React.MouseEvent<HTMLCanvasElement, MouseEvent>) => {
-    // Detecta a posição do mouse em relação ao canvas
     const canvas = event.currentTarget;
     const rect = canvas.getBoundingClientRect();
     const x = event.clientX - rect.left;
     const y = event.clientY - rect.top;
     console.log("Mouse position on canvas:", { x, y });
+  };
+
+  const handlePieceClick = (pieceId: number, boardId: number) => {
+    console.log(`Piece ${pieceId} clicked on board ${boardId}`);
   };
 
   return (
@@ -83,23 +101,68 @@ function Game() {
         <title>Chess MMO Game</title>
       </Helmet>
 
-      <div className="game-container position-relative bg-black-900_60">
-        <div className="chess-boards d-flex flex-wrap justify-content-center align-items-center">
-          {[...Array(boardCount.rows * boardCount.columns)].map((_, index) => (
-            <div key={index} className="chess-board border border-dark">
-              {[...Array(8)].map((_, boardRowIndex) => (
-                <div key={boardRowIndex} className="row no-gutters">
-                  {[...Array(8)].map((_, boardColIndex) => (
-                    <div
-                      key={boardColIndex}
-                      className={`col border ${boardRowIndex % 2 === boardColIndex % 2 ? 'bg-white' : 'bg-dark'}`}
-                      style={{ paddingTop: '100%' }}
-                    />
-                  ))}
+      <div className="game-container position-relative">
+        <div className="container-fluid">
+          <div className="row justify-content-center">
+            {[...Array(boardCount)].map((_, index) => (
+              <div key={index} className="col-12 col-md-6 col-lg-4">
+                <div className="chess-board-wrapper position-relative">
+                  <div className="board-border bg-brown">
+                    <div className="board-grid">
+                      {[...Array(10)].map((_, rowIndex) => (
+                        <div key={rowIndex} className="board-row">
+                          {[...Array(10)].map((_, colIndex) => (
+                            <div
+                              key={colIndex}
+                              className={`board-square ${rowIndex === 0 || rowIndex === 9 || colIndex === 0 || colIndex === 9 ? 'bg-red' : rowIndex % 2 === colIndex % 2 ? 'bg-white' : 'bg-dark'}`}
+                              style={{
+                                visibility: (rowIndex === 0 || rowIndex === 9 || colIndex === 0 || colIndex === 9) ? 'visible' : 'visible',
+                                borderColor: (rowIndex === 0 || rowIndex === 9 || colIndex === 0 || colIndex === 9) ? 'red' : 'none',
+                                pointerEvents: (rowIndex === 0 || rowIndex === 9 || colIndex === 0 || colIndex === 9) ? 'none' : 'auto',
+                              }}
+                              onClick={() => handlePieceClick(rowIndex * 8 + colIndex, index)}
+                            >
+                              {(rowIndex === 0 || rowIndex === 9) && (colIndex > 0 && colIndex < 9) && (
+                                <div className="board-label">
+                                  {String.fromCharCode(64 + colIndex)}
+                                </div>
+                              )}
+                              {(colIndex === 0 || colIndex === 9) && (rowIndex > 0 && rowIndex < 9) && (
+                                <div className="board-label">
+                                  {9 - rowIndex}
+                                </div>
+                              )}
+                              {(rowIndex > 0 && rowIndex < 9) && (colIndex > 0 && colIndex < 9) && (
+                                <div
+                                  className="piece"
+                                  style={{
+                                    backgroundColor: boardState[rowIndex - 1][colIndex - 1].active ? boardState[rowIndex - 1][colIndex - 1].customColor : 'transparent'
+                                  }}
+                                >
+                                  {boardState[rowIndex - 1][colIndex - 1].active && (
+                                    <button
+                                      className="piece-button"
+                                      onClick={() => handlePieceClick(rowIndex * 8 + colIndex, index)}
+                                    >
+                                      <img
+                                        src={boardState[rowIndex - 1][colIndex - 1].image}
+                                        alt="piece"
+                                        className="piece-image"
+                                      />
+                                    </button>
+                                  )}
+                                </div>
+                              )}
+                            </div>
+                          ))}
+                        </div>
+                      ))}
+                    </div>
+                  </div>
                 </div>
-              ))}
-            </div>
-          ))}
+              </div>
+            ))}
+          </div>
         </div>
 
         <div className="minimap position-absolute bottom-5 end-5">
@@ -112,10 +175,11 @@ function Game() {
             className="border border-white"
           />
           {showMap && (
-            <div className="position-fixed top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center overlay">
-              <div className="map-viewer bg-white border border-black">
+            <div className="map-overlay position-fixed top-0 start-0 w-100 h-100 bg-black bg-opacity-75 d-flex justify-content-center align-items-center">
+              <div className="map-viewer w-75 h-75 bg-white position-relative">
                 <h2 className="text-center">Mapa Completo</h2>
-                <canvas width="800" height="800" className="border border-black" />
+                <canvas width="800" height="800" className="border border-black w-100 h-100" />
+                <button className="close-button position-absolute top-0 end-0 m-3 btn btn-danger" onClick={() => setShowMap(false)}>Fechar</button>
               </div>
             </div>
           )}

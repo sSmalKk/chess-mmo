@@ -1,74 +1,83 @@
-html, body, #root {
-  height: 100%;
-  margin: 0;
-}
-
 .game-container {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  position: relative;
+  background-color: transparent;
 }
 
-.chess-boards {
+.chess-board-wrapper {
+  margin: 10px auto;
+  position: relative;
+  aspect-ratio: 1;
+}
+
+.board-border {
+  position: relative;
+  padding: 5px;
+  background-color: brown;
+}
+
+.board-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  width: 100%;
+  height: 100%;
+}
+
+.board-row {
+  display: contents;
+}
+
+.board-square {
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
+  border: 1px solid black;
+}
+
+.bg-red {
+  background-color: red !important;
+}
+
+.piece {
+  width: 100%;
+  height: 100%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 40px); /* ajuste para a barra inferior */
-  padding-bottom: 40px; /* ajuste para a barra inferior */
 }
 
-.chess-board {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(8, 1fr);
-  margin: 5px;
-  width: 100px;
-  height: 100px;
-}
-
-.chess-board .row {
+.piece-button {
   width: 100%;
-}
-
-.chess-board .col {
-  position: relative;
-  padding-top: 100%; /* forçar a altura a ser igual à largura */
-}
-
-.chess-board .col::before {
-  content: attr(data-row) attr(data-col);
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: red;
-  padding: 5px;
-  font-size: 0.8em;
-}
-
-.minimap {
-  width: 200px;
-  height: 200px;
+  height: 100%;
+  border: none;
+  background: none;
   cursor: pointer;
 }
 
-.map-viewer {
-  position: relative;
-  width: 800px;
-  height: 800px;
-  background: white;
-  border: 2px solid black;
+.piece-image {
+  max-width: 100%;
+  max-height: 100%;
 }
 
-.overlay {
-  background: rgba(0, 0, 0, 0.75);
+.board-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+}
+
+.minimap {
   z-index: 1000;
 }
 
-.bottom-bar {
-  height: 40px;
-  bottom: 0;
-  left: 0;
-  z-index: 500;
+.map-overlay {
+  z-index: 1050;
+}
+
+.close-button {
+  z-index: 1060;
 }
